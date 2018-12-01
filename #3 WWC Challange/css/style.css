@@ -1,0 +1,594 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    color: black;
+    font-size: 0.8em;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    padding: 1em 0.5em 0.5em 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.Logo
+{
+    display: flex;
+    margin-right: 0.5em;
+}
+
+h1
+{
+    font-weight: normal;
+}
+
+.Logo > img
+{
+    margin-right: 0.5em;
+    padding: 0.7em;
+    border-radius: 100%;
+    background-color: #7CC576;
+}
+
+nav
+{
+    display: flex;
+    margin: 1em;
+}
+
+nav > ul
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav > ul > li
+{
+    list-style-type: none;
+    cursor: pointer;
+    margin-right: 0.5em;
+}
+
+nav > ul > li :last-child
+{
+    margin-right: none;
+}
+
+.OnePage
+{
+    background: url("../img/PageTwo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.OnePageIntro
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    padding: 4em;
+}
+
+.OnePageIntro > h2
+{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+
+.OnePageIntro > p
+{
+    margin-bottom: 2em;
+}
+
+.Button
+{
+    width: 30%;
+    font-size: 0.7em;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #7CC576;
+    border-radius: 1rem;
+    padding: 0.8em;
+}
+
+.TwoPage
+{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.TwoPage > h2
+{
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.TwoPageIcon
+{
+    margin-top: 3em;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.TwoPageIcon > div
+{
+    flex-basis: 50%;
+}
+
+.TwoPageIcon > div :first-child
+{
+    margin: 1em;
+}
+
+.TwoPageIcon > div :last-child
+{
+    margin: 1em;
+}
+
+.ThreePage
+{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.BlackBackground
+{
+    background: url("../img/ThreePage.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+}
+
+.ThreeBackPage
+{
+    position: relative;
+    text-align: center;
+    background-color: #E9E9E9;
+    flex-basis: 40%;
+}
+
+.ThreeBackPage > img
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.ThreeFontPage
+{
+    flex-basis: 60%;
+    padding: 2em;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.ThreeFontPage > h3, h4
+{
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+}
+
+.ThreeFontPage > h3 > span
+{
+    color: #7CC576;
+}
+
+.ThreeFontPage > p
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.Check
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.Check > h5
+{
+    margin-left: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Check > img
+{
+    border: 1px solid #CCCCCC;
+    border-radius: 100%;
+    padding: 0.5em;
+    flex-basis: 5%;
+}
+
+.FourPage
+{
+    margin-left: 2em;
+}
+
+.FourPageHeader
+{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.FourPageHeader > h2
+{
+    text-transform: uppercase;
+}
+
+.FourPageContainer
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.FourLeftPage > h2
+{
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.FourLeftPage > p
+{
+    font-size: 0.8em;
+}
+
+.FourRightPage
+{
+    background: url("../img/FourPage.png") no-repeat;
+    background-size: cover;
+    flex-basis: 40%;
+    padding-bottom: 2em;
+}
+
+.FourLeftPage
+{
+    flex-basis: 60%;
+    margin-bottom: 2em;
+}
+
+.FourPageTable
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.6em;
+}
+
+.FourPageTable > div > h1
+{
+    font-size: 1.4em;
+}
+
+.FourPageIconOne
+{
+    background: url("../img/Icon-Basket.png") no-repeat;
+}
+
+.FourPageIconTwo
+{
+    background: url("../img/Icon-Laptop.png") no-repeat;
+}
+
+.FourPageIconThree
+{
+    background: url("../img/Icon-Locked.png") no-repeat;
+}
+
+.FourPageIconOne, .FourPageIconTwo, .FourPageIconThree
+{
+    border: 2px solid black;
+    border-radius: 100%;
+    background-position: center;
+    background-size: 50%;
+    padding: 1em 0.5em;
+    margin: 0 1em 0 1em;
+    flex-basis: 5%;
+}
+
+.Next
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.Next > h1
+{
+    color: #7CC576;
+    margin-right: 1em;
+}
+
+.Next > img
+{
+    cursor: pointer;
+    height: 100%;
+}
+
+.FivePage
+{
+    background-color: #F9F9F9;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.FivePageIcon
+{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.FivePageIconOne
+{
+    background: url("../img/Icon-Music.png") no-repeat;
+    margin-right: 0.5em;
+}
+
+.FivePageIconTwo
+{
+    background: url("../img/Icon-Graph.png") no-repeat;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.FivePageIconThree
+{
+    background: url("../img/Icon-Star.png") no-repeat;
+    margin-left: 0.5em;
+}
+
+.FivePageIconLine
+{
+    border: 1px solid #777777;
+    width: 4.5em;
+}
+
+.FivePageIconOne, .FivePageIconTwo, .FivePageIconThree
+{
+    border: 2px solid #777777;
+    border-radius: 100%;
+    background-position: center;
+    background-size: 50%;
+    padding: 2em 2em;
+}
+
+.FivePageText
+{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.FivePageText > div
+{
+    margin-left: 2em;
+    font-size: 0.8em;
+}
+
+.SixPage
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+    font-size: 0.9em;
+}
+
+.SixPage > h2
+{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: 0.1em;
+}
+
+.SixMainPage
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.SixComments
+{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0 5em 0;
+}
+
+.SixText
+{
+    flex-basis: 70%;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 2em;
+    background-color: #F9F9F9;
+}
+
+.SixText > h2
+{
+    padding-top: 0.5em;
+    font-size: 0.8em;
+    color: #7CC576;
+}
+
+.SixAvatar
+{
+    background-color: #F9F9F9;
+    border-radius: 100%;
+    padding: 5em 1em;
+    flex-basis: 30%;
+    margin: 2em;
+}
+
+.TriangleRight
+{
+    width: 0;
+    height: 0;
+    border-left: 10px solid #F9F9F9;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.TriangleLeft
+{
+    width: 0;
+    height: 0;
+    border-right: 10px solid #F9F9F9;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.SevenPage
+{
+    background-color: #7CC576;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.Button2
+{
+    width: 50%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    border: 1px solid white;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border-bottom-left-radius: 8%;
+}
+
+.Logos
+{
+    padding: 3em;
+}
+
+.Logos > img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.ContactContainer
+{
+    color: white;
+    background-color: #222222;
+    display: flex;
+    flex-flow: row;
+}
+
+.ContactPage
+{
+    padding: 1em;
+}
+
+.ContactPage > h2
+{
+    font-size: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.ContactPage > div
+{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-size: 0.6em;
+    margin-bottom: 1em;
+}
+
+.ContactPage > div > img
+{
+    height: 20%;
+    width: 20%;
+    margin-right: 1em;
+}
+
+.ContactPage > div > p > span
+{
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+footer
+{
+    font-size: 0.8em;
+    padding: 1em;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.Twitter
+{
+    background: url("../img/Twitter\ Icon.png") no-repeat;
+}
+
+.Facebook
+{
+    background: url("../img/Facebook.png") no-repeat;
+}
+
+.Pinterest
+{
+    background: url("../img/Pinterest.png") no-repeat;
+}
+
+.Google
+{
+    background: url("../img/Google+.png") no-repeat;
+}
+
+.Twitter, .Facebook, .Pinterest, .Google
+{
+    background-color: black;
+    border-radius: 100%;
+    background-position: center;
+    background-size: 40%;
+    padding: 2em 1.5em;
+    margin-left: 1em;
+    flex-basis: 5%;
+}

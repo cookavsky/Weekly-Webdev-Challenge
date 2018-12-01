@@ -1,0 +1,211 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    color: #696969;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+}
+
+header
+{
+    color: white;
+    background: url("../img/header.jpg") no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 1.4rem;
+}
+
+h2
+{
+    margin-top: 10em;
+}
+
+h3
+{
+    margin-bottom: 5em;
+}
+
+.LineHeader
+{
+    border: 1px solid white;
+    width: 6em;
+    margin: 2em 0;
+}
+
+header > p
+{
+    width: 80%;
+}
+
+header > img
+{
+    margin-top: 12.5em;
+    cursor: pointer;
+}
+
+nav
+{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4
+{
+    margin: 1em 0.25em 0.25em 1em;
+}
+
+.Menu
+{
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+}
+
+.Menu > li
+{
+    margin: 1em 0.25em 0.25em 0.25em;
+    cursor: pointer;
+}
+
+.Menu > li:hover
+{
+    margin: 1em 0.25em calc(0.25em - 2px) 0.25em;
+    border-bottom: 2px solid #D07C7C;
+}
+
+.Intro
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4em;
+}
+
+.Intro > h3
+{
+    margin: 1em;
+    text-transform: uppercase;
+}
+
+.Intro > p
+{
+    width: 100%;
+}
+
+.CALY
+{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.A
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+.A1
+{
+    background: url("../img/NaturePhoto.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: calc(60vw - 4.3em);
+}
+
+.Row
+{
+    display: flex;
+    flex-direction: row;
+    margin: 1em 0;
+}
+
+.A11
+{
+    background: url("../img/PeoplePhoto.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 1em;
+    height: 50vh;
+    width: calc(30vw - 2.8em);
+}
+
+.A12
+{
+    background: url("../img/WeddingPhoto.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: calc(30vw - 2.8em);
+}
+
+.A2
+{
+    background: url("../img/ArchitecturePhoto.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: calc(60vw - 4.3em);
+}
+
+.B
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.B1
+{
+    background: url("../img/UrbanPhoto.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1em;
+    height: calc(100vh + 1em);
+    width: calc(40vw - 2em);
+}
+
+.B2
+{
+    background: url("../img/AnimalsPhoto.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: calc(40vw - 2em);
+}
+
+h5
+{
+    text-transform: uppercase;
+}
+
+.Text
+{
+    border: 1px solid white;
+}
+
+.LineGallery
+{
+    border: 1px solid white;
+    width: 6em;
+}

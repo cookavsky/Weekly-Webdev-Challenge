@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    color: black;
+    font-size: 0.8em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+header
+{
+    margin-right: 1em;
+    margin-left: 2em;
+    align-self: center;
+    font-size: 1.2em;
+}
+header > span
+{
+    font-weight: bold;
+}
+
+.Menu
+{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 2em;
+}
+
+.Menu > li
+{
+    margin-right: 1em;
+}
+
+.Menu > li :last-child
+{
+    margin-right: none;
+}
+
+.OnePage
+{
+    background: url("../img/OnePage.png") no-repeat;
+    background-size: cover;
+    padding: 5em;
+}
+
+.OnePage > p
+{
+    margin: 1em 0 2em 0;
+}
+
+h1
+{
+    font-size: 1.4em;
+}
+
+p
+{
+    font-size: 0.7rem;
+}
+
+.Button
+{
+    color: white;
+    background-color: red;
+    padding: 0.5em 1em;
+    width: 4rem;
+    border-radius: 0.3em;
+    text-align: center;
+}
+
+.TwoPage
+{
+    color: white;
+    background: url("../img/TwoPage.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.Intro
+{
+    padding-bottom: 4em;
+}
+
+h2
+{
+    font-size: 1.3em;
+}
+
+.Intro > p
+{
+    font-size: 1em;
+}
+
+.DotMinusDot
+{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.Dot
+{
+    border-radius: 100%;
+    background-color: white;
+    width: 0.5em;
+    height: 0.5em;
+}
+
+.Minus
+{
+    width: 10em;
+    border: 1px solid white;
+}
+
+.QualityList
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.QualityList :last-child
+{
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.Quality
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex-basis: 18rem;
+    margin-right: 2em;
+    padding-bottom: 2em;
+}
+
+.Quality > img
+{
+    height: 15%;
+    width: 10%;
+}
+
+h3
+{
+    font-size: 1em;
+    padding: 1em 0;
+}
+
+.Quality > p
+{
+    font-size: 0.7rem;
+    margin-bottom: 1em;
+}
+
+.Quality > p > span
+{
+    display: none;
+}
+
+.ThreePage
+{
+    background-color: gray;
+    color: white;
+    padding: 5em;
+    text-align: center;
+}
+
+.FourPage
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.FourChoose > p > span
+{
+    padding: 0 1em;
+    color: black;
+}
+
+.FourChoose > p
+{
+    color: gray;
+}
+
+.FourPage > .Intro > .DotMinusDot
+{
+    filter: invert(100%);
+}
+
+.FourGallery
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.FourGallery > div
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex-basis: 18rem;
+    background-color: #707070;
+    margin: 1em;
+    padding: 1em;
+}

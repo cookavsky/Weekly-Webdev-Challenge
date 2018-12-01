@@ -1,0 +1,313 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: grey;
+    color: black;
+    font-size: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.HomeContainer
+{
+    background: url('../img/home.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.HeaderNav
+{
+    display: flex;
+    padding: 0.5em 0 0 2.5em;
+}
+header
+{
+    flex-basis: 50%;
+}
+
+h1, h2
+{
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+nav
+{
+    align-self: center;
+}
+
+nav > ul
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.1rem;
+}
+
+nav > ul > li
+{
+    margin-right: 1em;
+    list-style-type: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+nav > ul > li:last-child
+{
+    margin-right: 0;
+}
+
+.HomeDiv
+{
+    font-size: 0.1rem;
+    margin-top: 20em;
+    margin-left: 10em;
+    width: 25%;
+}
+
+.ClickHome
+{
+    margin-top: 1em;
+    padding: 0.9em 1.5em 0.9em 1.5em;
+    color: white;
+    font-size: 0.2rem;
+    text-transform: uppercase;
+    background-color:#FF6033;
+}
+
+.scroll
+{
+    margin: 3em 0 2em 0;
+    margin-left: 25em;
+    width: 2%;
+}
+
+.TwoPage
+{
+    background-color: #00C4C4;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.TwoImg
+{
+    height: 30vh;
+    margin-left: 0.5em;
+}
+
+.TwoText
+{
+    width: 40%;
+}
+
+.TwoText :first-child
+{
+    margin-bottom: 0.5rem;
+}
+
+.ThreePage
+{
+    background-color: #70BFFF;
+    display: flex;
+    align-items: center;
+    padding: 3em 0 3em 1em;
+}
+
+.ThreeNav
+{
+    display: flex;
+    margin-bottom: 1em;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+}
+
+.ThreeNav > ul
+{
+    list-style-type: none;
+    flex-basis: 80%;
+    border-right: 1px solid rgb(202, 201, 201);
+}
+
+.ThreeNav > ul > li
+{
+    text-align: center;
+    margin: 2em;
+}
+
+.ThreeNav > img
+{
+    padding: 1em;
+    width: 10%;
+    height: 10%;
+}
+
+.ThreeImg
+{
+    height: 25vh;
+    margin-left: 30em;
+    position: absolute;
+}
+
+.ThreeText
+{
+    position: relative;
+    margin-left: 1.5em;
+    color: #fff;
+}
+
+.FourPage
+{
+    background-color: #FFE92F;
+    padding: 3em 2em 3em 2em;
+}
+
+.FourText
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.FourText > h1
+{
+    margin-bottom: 0.5em;
+}
+
+.GalleryOne
+{
+    display: flex;
+    margin: 2em 1em 1em 1em;
+}
+
+.ImgGalleryOne
+{
+    height: 70%;
+    width: 70%;
+    margin-right: 1em;
+}
+
+.GalleryTwo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.GalleryTwo :last-child
+{
+    margin-top: 1em;
+}
+
+.ImgGalleryTwo
+{
+    height: calc(50% - 0.5em);
+    width: 100%;
+}
+
+.GalleryThree
+{
+    display: flex;
+    margin: 1em;
+}
+
+.GalleryThree :last-child
+{
+    margin-left: 1em;
+}
+
+.ImgGalleryThree
+{
+    width: calc(50% - 0.5em);
+    height: 50%;
+}
+
+.FourPage > button
+{
+    background-color: #5585A2;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 0.8em 1.8em;
+    transform: translate(19em, 0);
+}
+
+.FivePage
+{
+    background: url('../img/FivePage.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 4em 3em;
+
+}
+
+.FivePage > h3,p
+{
+    margin-bottom: 1em;
+    width: 48%;
+}
+
+.Subscribe > button
+{
+
+    padding: 0.5em;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #96B92C;
+    text-transform: uppercase;
+}
+
+.Subscribe > input
+{
+    margin-right: 1em;
+    padding: 0.7em;
+    font-size: 1em;
+    width: 50%;
+}
+
+.SixPage
+{
+    background-color: #B07CF7;
+    color: white;
+    padding: 2em;
+}
+
+.SixIntro
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.SixIntro > p
+{
+    align-self: center;
+    padding: 1em;
+}
+
+.Blog
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.Blog > img
+{
+    height: 50%;
+    width: 50%;
+}
+
+.SixPage > button
+{
+    display: block;
+    align-items: center;
+    padding: 0.5em;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #F72B3B;
+    text-transform: uppercase;
+}
