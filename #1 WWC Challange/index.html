@@ -13,66 +13,186 @@
 
 <body>
     <header>
-        <img src="img/WhiteLogo.png" />
+        <img src="/img/WhiteLogo.png" />
     </header>
     <main>
-        <article>
-            <section class="Register">
+        <article class="Left">
+            <form class="Register">
                 <h1>Register form</h1>
                 <div class="Content">
                     <div class="User">
                         <div class="Icon">
-                            <img src="img/glyphicons_003_user.png"/>
+                            <img src="img/glyphicons_003_user.png" alt="User"/>
                         </div>
                         <div class="Text">
-                            <input></input>
+                            <input type='text' name='username' placeholder="Username"></input>
                         </div>
                     </div>
                     <div class="Password">
                         <div class="Icon">
-                            <img src="img/glyphicons_203_lock.png"/>
+                            <img src="img/glyphicons_203_lock.png" alt="Password"/>
                         </div>
                         <div class="Text">
-                            <input></input>
+                            <input type='password' name='password' placeholder="Password"></input>
                         </div>
                     </div>
                     <div class="Password">
                         <div class="Icon">
-                            <img src="img/glyphicons_203_lock.png"/>
+                            <img src="img/glyphicons_203_lock.png" alt="Password"/>
                         </div>
                         <div class="Text">
-                            <input></input>
+                            <input type='password' name='password' placeholder="Confirm password"></input>
                         </div>
                     </div>
                     <div class="Email">
                         <div class="Icon">
-                            <img src="img/glyphicons_010_envelope.png"/>
+                            <img src="img/glyphicons_010_envelope.png" alt="Email"/>
                         </div>
                         <div class="Text">
-                            <input></input>
+                            <input type='text' name='email'  placeholder="Email"></input>
                         </div>
                     </div>
                     <div class="Location">
                         <div class="Icon">
-                            <img src="img/glyphicons_242_google_maps.png"/>
+                            <img src="img/glyphicons_242_google_maps.png" alt="Location"/>
                         </div>
                         <div class="Text">
-                            <input></input>
+                            <input type='text' name='location' placeholder="Your location"></input>
                         </div>
                         <div class="BottomTriangle"></div>
                     </div>
                     <div class="CheckList">
-                        <div class="Check"></div>
-                        <div>
-                            <p>I have read and accept the terms of use</p>
+                        <div class="Check red"></div>
+                        <div class="CheckText">
+                            <p>I have read and accept the terms of use.</p>
                         </div>
                     </div>
-                    <div class="Button"></div>
+                    <div class="Button">
+                        <h2>Sign up</h2>
+                    </div>
                 </div>
-            </section>
+            </form>
+            <form class="Send">
+                <h1>Send form</h1>
+                <div class="Content">
+                    <div class="Name">
+                        <div class="Icon">
+                            <img src="img/glyphicons_003_user.png" alt="User"/>
+                        </div>
+                        <div class="Text">
+                            <input type='text' name='name' placeholder="Your name"></input>
+                        </div>
+                    </div>
+                    <div class="Email">
+                        <div class="Icon">
+                            <img src="img/glyphicons_010_envelope.png" alt="Email"/>
+                        </div>
+                        <div class="Text">
+                            <input type='text' name='email'  placeholder="Your email"></input>
+                        </div>
+                    </div>
+                    <textarea name="message" placeholder="Type your message ..."></textarea>
+                    <div class="CheckList">
+                        <div class="Check red"></div>
+                        <div class="CheckText">
+                            <p>Send a copy to my Email</p>
+                        </div>
+                    </div>
+                    <div class="Button">
+                        <h2>Send email</h2>
+                    </div>
+                </div>
+            </form>
+        </article>
+        <article class="right">
+            <form class="Sign">
+                <h1>Sign in form</h1>
+                <div class="Content">
+                    <div class="User">
+                        <div class="Icon">
+                            <img src="img/glyphicons_003_user.png" alt="User" />
+                        </div>
+                        <div class="Text">
+                            <input type='text' name='username' placeholder="Username"></input>
+                        </div>
+                    </div>
+                    <div class="Password">
+                        <div class="Icon">
+                            <img src="img/glyphicons_203_lock.png" alt="Password" />
+                        </div>
+                        <div class="Text">
+                            <input type='password' name='password' placeholder="Password"></input>
+                        </div>
+                    </div>
+                    <div class="Row">
+                        <div class="CheckList">
+                            <div class="Check red"></div>
+                                <div class="CheckText">
+                                    <p>Remember me</p>
+                                </div>
+                        </div>
+                        <div class="Button">
+                            <h2>Sign in</h2>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form class="Rec">
+                <h1>Recover form</h1>
+                <div class="Content">
+                    <div class="Email">
+                        <div class="Icon">
+                            <img src="img/glyphicons_010_envelope.png" alt="Email" />
+                        </div>
+                        <div class="Text">
+                            <input type='text' name='email' placeholder="Enter your email"></input>
+                        </div>
+                    </div>
+                    <div class="Phone">
+                        <div class="Icon">
+                            <img src="img/glyphicons_139_phone.png" alt="Location" />
+                        </div>
+                        <div class="Text">
+                            <input type="tel" name="phone" placeholder="Enter your photo number"></input>
+                        </div>
+                    </div>
+                    <div class="Row">
+                        <div class="Button">
+                            <h2>Send</h2>
+                        </div>
+                        <div class="ButtonTwo">
+                            <h2>Done</h2>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form class="Sub">
+                <h1>Subscribe form</h1>
+                <div class="Content">
+                    <div class="Email">
+                        <div class="Icon">
+                            <img src="img/glyphicons_010_envelope.png" alt="Email" />
+                        </div>
+                        <div class="Text">
+                            <input type='text' name='email' placeholder="Enter your email"></input>
+                        </div>
+                    </div>
+                    <div class="Row">
+                        <div class="ButtonSub">
+                            <h2>Subscribe</h2>
+                        </div>
+                        <div class="ButtonNoT">
+                            <h2>Done</h2>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <footer>
+                <img src="img/BlackLogo.png" />
+            </footer>
         </article>
     </main>
-    <footer></footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
