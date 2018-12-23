@@ -244,4 +244,23 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .Check
+    {
+        height: 0.75vh;
+        width: 1.5vw;
+    }
+    .Icon > img
+    {
+        height: 3.5vh;
+        width: 5vw;
+    }
+    .Email > .Icon > img
+    {
+        height: 2vh;
+        width: 5vw;
+    }
+    textarea
+    {
+        height: 15vh;
+    }
 }

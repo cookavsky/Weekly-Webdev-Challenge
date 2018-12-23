@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <img src="/img/WhiteLogo.png" />
+        <img src="img/WhiteLogo.png" />
     </header>
     <main>
         <article class="Left">
@@ -25,7 +25,7 @@
                             <img src="img/glyphicons_003_user.png" alt="User"/>
                         </div>
                         <div class="Text">
-                            <input type='text' name='username' placeholder="Username"></input>
+                            <input type='text' name='username' placeholder="Username">
                         </div>
                     </div>
                     <div class="Password">
@@ -33,7 +33,7 @@
                             <img src="img/glyphicons_203_lock.png" alt="Password"/>
                         </div>
                         <div class="Text">
-                            <input type='password' name='password' placeholder="Password"></input>
+                            <input type='password' name='password' placeholder="Password">
                         </div>
                     </div>
                     <div class="Password">
@@ -41,7 +41,7 @@
                             <img src="img/glyphicons_203_lock.png" alt="Password"/>
                         </div>
                         <div class="Text">
-                            <input type='password' name='password' placeholder="Confirm password"></input>
+                            <input type='password' name='password' placeholder="Confirm password">
                         </div>
                     </div>
                     <div class="Email">
@@ -49,7 +49,7 @@
                             <img src="img/glyphicons_010_envelope.png" alt="Email"/>
                         </div>
                         <div class="Text">
-                            <input type='text' name='email'  placeholder="Email"></input>
+                            <input type='text' name='email'  placeholder="Email">
                         </div>
                     </div>
                     <div class="Location">
@@ -57,7 +57,7 @@
                             <img src="img/glyphicons_242_google_maps.png" alt="Location"/>
                         </div>
                         <div class="Text">
-                            <input type='text' name='location' placeholder="Your location"></input>
+                            <input type='text' name='location' placeholder="Your location">
                         </div>
                         <div class="BottomTriangle"></div>
                     </div>
@@ -80,7 +80,7 @@
                             <img src="img/glyphicons_003_user.png" alt="User"/>
                         </div>
                         <div class="Text">
-                            <input type='text' name='name' placeholder="Your name"></input>
+                            <input type='text' name='name' placeholder="Your name">
                         </div>
                     </div>
                     <div class="Email">
@@ -88,7 +88,7 @@
                             <img src="img/glyphicons_010_envelope.png" alt="Email"/>
                         </div>
                         <div class="Text">
-                            <input type='text' name='email'  placeholder="Your email"></input>
+                            <input type='text' name='email'  placeholder="Your email">
                         </div>
                     </div>
                     <textarea name="message" placeholder="Type your message ..."></textarea>
@@ -113,7 +113,7 @@
                             <img src="img/glyphicons_003_user.png" alt="User" />
                         </div>
                         <div class="Text">
-                            <input type='text' name='username' placeholder="Username"></input>
+                            <input type='text' name='username' placeholder="Username">
                         </div>
                     </div>
                     <div class="Password">
@@ -121,7 +121,7 @@
                             <img src="img/glyphicons_203_lock.png" alt="Password" />
                         </div>
                         <div class="Text">
-                            <input type='password' name='password' placeholder="Password"></input>
+                            <input type='password' name='password' placeholder="Password">
                         </div>
                     </div>
                     <div class="Row">
@@ -145,7 +145,7 @@
                             <img src="img/glyphicons_010_envelope.png" alt="Email" />
                         </div>
                         <div class="Text">
-                            <input type='text' name='email' placeholder="Enter your email"></input>
+                            <input type='text' name='email' placeholder="Enter your email">
                         </div>
                     </div>
                     <div class="Phone">
@@ -153,7 +153,7 @@
                             <img src="img/glyphicons_139_phone.png" alt="Location" />
                         </div>
                         <div class="Text">
-                            <input type="tel" name="phone" placeholder="Enter your photo number"></input>
+                            <input type="tel" name="phone" placeholder="Enter your photo number">
                         </div>
                     </div>
                     <div class="Row">
@@ -174,7 +174,7 @@
                             <img src="img/glyphicons_010_envelope.png" alt="Email" />
                         </div>
                         <div class="Text">
-                            <input type='text' name='email' placeholder="Enter your email"></input>
+                            <input type='text' name='email' placeholder="Enter your email">
                         </div>
                     </div>
                     <div class="Row">
