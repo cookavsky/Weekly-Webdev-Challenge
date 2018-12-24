@@ -17,7 +17,7 @@
     </header>
     <main>
         <article class="Left">
-            <form class="Register">
+            <form class="Register" action="register.php" method="post">
                 <h1>Register form</h1>
                 <div class="Content">
                     <div class="User">
@@ -41,7 +41,7 @@
                             <img src="img/glyphicons_203_lock.png" alt="Password"/>
                         </div>
                         <div class="Text">
-                            <input type='password' name='password' placeholder="Confirm password">
+                            <input type='password' name="confirm_password" placeholder="Confirm password">
                         </div>
                     </div>
                     <div class="Email">
@@ -67,12 +67,10 @@
                             <p>I have read and accept the terms of use.</p>
                         </div>
                     </div>
-                    <div class="Button">
-                        <h2>Sign up</h2>
-                    </div>
+                    <input class="Button" type="submit" value="Sign up">
                 </div>
             </form>
-            <form class="Send">
+            <form class="Send" action="message.php" method="post">
                 <h1>Send form</h1>
                 <div class="Content">
                     <div class="Name">
@@ -98,14 +96,12 @@
                             <p>Send a copy to my Email</p>
                         </div>
                     </div>
-                    <div class="Button">
-                        <h2>Send email</h2>
-                    </div>
+                    <input class="Button" type="submit" name="submit" value="Send email">
                 </div>
             </form>
         </article>
         <article class="right">
-            <form class="Sign">
+            <form class="Sign" action="login.php" method="post">
                 <h1>Sign in form</h1>
                 <div class="Content">
                     <div class="User">
@@ -127,13 +123,11 @@
                     <div class="Row">
                         <div class="CheckList">
                             <div class="Check red"></div>
-                                <div class="CheckText">
-                                    <p>Remember me</p>
-                                </div>
+                            <div class="CheckText">
+                                <p>Remember me</p>
+                            </div>
                         </div>
-                        <div class="Button">
-                            <h2>Sign in</h2>
-                        </div>
+                        <input class="ButtonTwo" type="submit" value="Sign in">
                     </div>
                 </div>
             </form>
@@ -157,16 +151,12 @@
                         </div>
                     </div>
                     <div class="Row">
-                        <div class="Button">
-                            <h2>Send</h2>
-                        </div>
-                        <div class="ButtonTwo">
-                            <h2>Done</h2>
-                        </div>
+                        <input class="ButtonTwo" type="submit" value="Send">
+                        <input class="ButtonOpacity" type="submit" value="Done">
                     </div>
                 </div>
             </form>
-            <form class="Sub">
+            <form class="Sub" action="subscribe.php" method="post">
                 <h1>Subscribe form</h1>
                 <div class="Content">
                     <div class="Email">
@@ -178,12 +168,8 @@
                         </div>
                     </div>
                     <div class="Row">
-                        <div class="ButtonSub">
-                            <h2>Subscribe</h2>
-                        </div>
-                        <div class="ButtonNoT">
-                            <h2>Done</h2>
-                        </div>
+                        <input class="ButtonTwo" type="submit" value="Subscribe">
+                        <input class="ButtonRed" type="submit" formaction="unsubscribe.php" value="No, Thanks">
                     </div>
                 </div>
             </form>

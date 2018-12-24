@@ -144,36 +144,45 @@ h1, h2
     background-color: #3A9A00;
 }
 
-.Button, .ButtonTwo, .ButtonSub
+.ButtonTwo, .ButtonRed, .Button, .ButtonOpacity
 {
-    background: linear-gradient(white, #3A9A00, #3A9A00, #3A9A00);
-    border: 1px solid #3A9A00;
+    padding: 0.75em 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
     border-radius: 0.25em;
     cursor: pointer;
 }
 
-.Button, .ButtonTwo
+.Button
 {
-    padding: 0.5em 2.5em;
+    display: block;
+    width: 100%;
+    background: linear-gradient(white, #3A9A00, #3A9A00, #3A9A00);
+    border: 1px solid #3A9A00;
 }
 
 .ButtonTwo
 {
-    opacity: 0.5;
+    flex-basis: 40%;
+    background: linear-gradient(white, #3A9A00, #3A9A00, #3A9A00);
+    border: 1px solid #3A9A00;
 }
 
-.ButtonSub
+.ButtonRed
 {
-    padding: 0.5em 1.5em;
-}
-
-.ButtonNoT
-{
+    flex-basis: 40%;
     background-color: red;
     border: 1px solid crimson;
-    border-radius: 0.25em;
-    cursor: pointer;
-    padding: 0.5em 2em;
+}
+
+.ButtonOpacity
+{
+    flex-basis: 40%;
+    opacity: 0.5;
+    background: linear-gradient(white, #3A9A00, #3A9A00, #3A9A00);
+    border: 1px solid #3A9A00;
 }
 
 textarea
