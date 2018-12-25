@@ -1,0 +1,601 @@
+/*
+    ##Device = Monitors
+    ##Screen = 1920px to higher resolution desktops
+*/
+@media (min-width: 1080px) and (max-width: 1920px) and (orientation: landscape) {
+    body
+    {
+        font-size: 1.5rem;
+    }
+    .HeaderNav
+    {
+        padding: 2em 4em 0;
+    }
+    h1
+    {
+        font-size: 6rem;
+    }
+    nav > ul > li
+    {
+        margin-left: 0.75em;
+    }
+    .HomeDiv
+    {
+        margin-left: 4em;
+        width: 40%;
+    }
+    h2
+    {
+        font-size: 2em;
+    }
+    .ClickHome
+    {
+        font-size: 1.2rem;
+    }
+    .TwoPage
+    {
+        padding: 5em;
+    }
+    .TwoText
+    {
+        margin: 4em;
+    }
+    .TwoText > p
+    {
+        width: 75%;
+    }
+    .ThreePage
+    {
+        padding: 4em 6em;
+    }
+    .ThreeRight
+    {
+        margin-left: 3em;
+    }
+    h3
+    {
+        font-size: 5rem;
+        padding: 2em;
+    }
+    .ImgGalleryOne
+    {
+        height: 80%;
+        width: 80%;
+    }
+    .FivePage
+    {
+        padding: 8em;
+    }
+    .SixPage
+    {
+        padding: 4em;
+    }
+    .SixIntro > p
+    {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Blog
+    {
+        width: 100%;
+    }
+    .Blog > img
+    {
+        margin: 1em;
+    }
+    .SixPage > button
+    {
+        width: 20%;
+    }
+    .SevenPage
+    {
+        padding: 5em;
+    }
+    .SevenPage > p
+    {
+        margin: 2em;
+    }
+    .SevenContact
+    {
+        width: 30%;
+        margin-right: 3em;
+    }
+    .SevenContact > div
+    {
+        width: calc(100% - 2px - 1em);
+        height: 2.5vh;
+    }
+    .SevenContact > input
+    {
+        width: calc(100% - 2px - 1em);
+        height: 3vh;
+    }
+    textarea
+    {
+        height: 20vh;
+        width: calc(100% - 2px - 1em);
+    }
+    .SevenContact > input
+    {
+        font-size: 1.5rem;
+    }
+    textarea::placeholder
+    {
+        font-size: 1.5rem;
+    }
+    h6
+    {
+        font-size: 1.25rem;
+    }
+    footer > h1
+    {
+        font-size: 4rem;
+    }
+    footer > div
+    {
+        flex-basis: 35%;
+    }
+}
+/*
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+    body
+    {
+        font-size: 1.5rem;
+    }
+    .HeaderNav
+    {
+        padding: 2em 4em 0;
+    }
+    h1
+    {
+        font-size: 6rem;
+    }
+    nav > ul > li
+    {
+        margin-left: 0.75em;
+    }
+    .HomeDiv
+    {
+        margin-left: 4em;
+        width: 40%;
+    }
+    h2
+    {
+        font-size: 2em;
+    }
+    .ClickHome
+    {
+        font-size: 1.2rem;
+    }
+    .TwoText
+    {
+        margin: 3em;
+    }
+    .ThreePage
+    {
+        padding: 4em 6em;
+    }
+    .ThreeRight
+    {
+        margin-left: 3em;
+    }
+    h3
+    {
+        font-size: 3.5rem;
+        padding: 2em;
+    }
+    .FivePage
+    {
+        padding: 2em 4em;
+    }
+    .SixPage
+    {
+        padding: 2em 4em;
+    }
+    .SixIntro > p
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SixPage > button
+    {
+        width: 20%;
+    }
+    .SevenContact
+    {
+        width: 30%;
+        margin-right: 3em;
+    }
+    .SevenContact > div
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    .SevenContact > input
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    textarea
+    {
+        height: 10vh;
+        width: calc(100% - 2px - 1em);
+    }
+    h6
+    {
+        font-size: 1.25rem;
+    }
+    footer > h1
+    {
+        font-size: 4rem;
+    }
+    footer > div
+    {
+        flex-basis: 35%;
+    }
+}
+
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body
+    {
+        font-size: 1.5rem;
+    }
+    .HeaderNav
+    {
+        padding: 2em 4em 0;
+    }
+    h1
+    {
+        font-size: 6rem;
+    }
+    nav > ul > li
+    {
+        margin-left: 0.75em;
+    }
+    .HomeDiv
+    {
+        margin-left: 4em;
+        width: 40%;
+    }
+    h2
+    {
+        font-size: 2em;
+    }
+    .ClickHome
+    {
+        font-size: 1.2rem;
+    }
+    .TwoText
+    {
+        margin: 3em;
+    }
+    .ThreePage
+    {
+        padding: 2em;
+    }
+    .ThreeRight
+    {
+        margin-left: 3em;
+    }
+    h3
+    {
+        font-size: 3.5rem;
+        padding: 2em;
+    }
+    .FivePage
+    {
+        padding: 2em 4em;
+    }
+    .SixPage
+    {
+        padding: 2em 4em;
+    }
+    .SixIntro > p
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SixPage > button
+    {
+        width: 20%;
+    }
+    .SevenContact
+    {
+        width: 30%;
+        margin-right: 3em;
+    }
+    .SevenContact > div
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    .SevenContact > input
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    textarea
+    {
+        height: 10vh;
+        width: calc(100% - 2px - 1em);
+    }
+    h6
+    {
+        font-size: 1.25rem;
+    }
+    footer > h1
+    {
+        font-size: 4rem;
+    }
+    footer > div
+    {
+        flex-basis: 35%;
+    }
+}
+
+/*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body
+    {
+        font-size: 1.2rem;
+    }
+    .HeaderNav
+    {
+        padding: 1em 2em 0;
+    }
+    h1
+    {
+        font-size: 6rem;
+    }
+    nav > ul > li
+    {
+        margin-left: 0.75em;
+    }
+    .HomeDiv
+    {
+        margin-left: 4em;
+        width: 40%;
+    }
+    h2
+    {
+        font-size: 2em;
+    }
+    .ClickHome
+    {
+        font-size: 1.2rem;
+    }
+    .TwoText
+    {
+        margin: 3em;
+    }
+    .ThreePage
+    {
+        padding: 2em;
+    }
+    .ThreeRight
+    {
+        margin-left: 3em;
+    }
+    h3
+    {
+        font-size: 3rem;
+        padding: 1em;
+    }
+    .FivePage
+    {
+        padding: 2em 4em;
+    }
+    .SixPage
+    {
+        padding: 2em 4em;
+    }
+    .SixIntro > p
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SixPage > button
+    {
+        width: 20%;
+    }
+    .SevenContact
+    {
+        width: 30%;
+        margin-right: 3em;
+    }
+    .SevenContact > div
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    .SevenContact > input
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    textarea
+    {
+        height: 10vh;
+        width: calc(100% - 2px - 1em);
+    }
+    h6
+    {
+        font-size: 1.25rem;
+    }
+    footer > h1
+    {
+        font-size: 4rem;
+    }
+    footer > div
+    {
+        flex-basis: 35%;
+    }
+}
+
+/*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    body
+    {
+        font-size: 1.2rem;
+    }
+    .HeaderNav
+    {
+        padding: 1em 2em 0;
+    }
+    h1
+    {
+        font-size: 6rem;
+    }
+    nav > ul > li
+    {
+        margin-left: 0.75em;
+    }
+    .HomeDiv
+    {
+        margin-left: 4em;
+        width: 40%;
+    }
+    h2
+    {
+        font-size: 2em;
+    }
+    .ClickHome
+    {
+        font-size: 1.2rem;
+        width: 40%;
+    }
+    .TwoText
+    {
+        margin: 3em;
+    }
+    .ThreePage
+    {
+        padding: 4em 4em;
+    }
+    .ThreeRight
+    {
+        margin-left: 6em;
+    }
+    h3
+    {
+        font-size: 3rem;
+        padding: 2em;
+    }
+    .FivePage
+    {
+        padding: 2em 4em;
+    }
+    .SixPage
+    {
+        padding: 2em 4em;
+    }
+    .SixIntro > p
+    {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SixPage > button
+    {
+        width: 15%;
+    }
+    .SevenContact
+    {
+        width: 30%;
+        margin-right: 3em;
+    }
+    .SevenContact > div
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    .SevenContact > input
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    textarea
+    {
+        height: 20vh;
+        width: calc(100% - 2px - 1em);
+    }
+    footer > h1
+    {
+        font-size: 4rem;
+    }
+    footer > div
+    {
+        flex-basis: 35%;
+    }
+}
+
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body
+    {
+        font-size: 0.9rem;
+    }
+    h1
+    {
+        font-size: 3.5rem;
+    }
+    nav > ul > li
+    {
+        margin-left: 0.75em;
+    }
+    h2
+    {
+        font-size: 2em;
+    }
+    .ClickHome
+    {
+        font-size: 0.8rem;
+    }
+    h3
+    {
+        font-size: 1.5rem;
+        padding: 2em;
+    }
+    .SevenContact
+    {
+        width: 70%;
+    }
+    .SevenContact > div
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    .SevenContact > input
+    {
+        width: calc(100% - 2px - 1em);
+    }
+    textarea
+    {
+        height: 20vh;
+        width: calc(100% - 2px - 1em);
+    }
+}
+
+/*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+}

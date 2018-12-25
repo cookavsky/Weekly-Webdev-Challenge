@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>WWC Challenge #2</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1">
+    <title>Wekly WebDev Challenge #2</title>
     <meta name="description" content="HTML, CSS, Javascript and WWC">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/media.css">
 </head>
 <body>
     <main>
@@ -29,21 +29,16 @@
             </div>
             <div class="HomeDiv">
                 <h2>Fresh Life</h2>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco.</p>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                 <button class="ClickHome">Get Free Now</button>
             </div>
-            <img src="img/scroll.png" class="scroll" />
         </article>
         <article class="TwoPage">
             <img class="TwoImg" src="img/OnePage.png"/>
             <div class="TwoText">
-            <h1>About Us</h1>
-            <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p></br>
-            <p>
-            Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-            totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                <h2>About Us</h2>
+                <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <p>Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
             </div>
         </article>
         <article class="ThreePage">
@@ -58,34 +53,41 @@
                 </div>
                 <div class="ThreeNav">
                     <ul>
-                        <li>Quality Product</li>
+                        <li>
+                            <p>Quality Product</p>
+                        </li>
                     </ul>
                     <img src="img/product.png"/>
                 </div>
                 <div class="ThreeNav">
                     <ul>
-                        <li>Domestic & International Delivery</li>
+                        <li>
+                            <p>Domestic & International Delivery</p>
+                        </li>
                     </ul>
                     <img src="img/D&I.png"/>
                 </div>
                 <div class="ThreeNav">
                     <ul>
-                        <li>Well Organized</li>
+                        <li>
+                            <p>Well Organized</p>
+                        </li>
                     </ul>
-                        <img src="img/WO.png"/>
+                    <img src="img/WO.png"/>
                 </div>
             </div>
-            <img src="img/ThreePage.png" class="ThreeImg"/>
-            <h1 class="ThreeText">Our Services</h1>
+            <div class="ThreeRight">
+                <img src="img/ThreePage.png"/>
+                <h3>Our Services</h3>
+            </div>
         </article>
         <article class="FourPage">
             <div class="FourText">
-                <h1>Gallery</h1>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h2>Gallery</h2>
+                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="GalleryOne">
-                <img class="ImgGalleryOne"src="img/galleryOne.jpg" />
+                <img class="ImgGalleryOne" src="img/galleryOne.jpg" />
                 <div class="GalleryTwo">
                     <img class="ImgGalleryTwo" src="img/galleryTwo.jpg"/>
                     <img class="ImgGalleryTwo" src="img/galleryThree.jpg"/>
@@ -98,7 +100,7 @@
             <button>View more</button>
         </article>
         <article class="FivePage">
-            <h3>Subscribe To Us</h3>
+            <h4>Subscribe To Us</h4>
             <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             enim ad minim veniam.</p>
             <div class="Subscribe">
@@ -108,7 +110,7 @@
         </article>
         <article class="SixPage">
             <div class="SixIntro">
-                <h1>Blog</h1>
+                <h2>Blog</h2>
                 <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
             </div>
@@ -123,21 +125,36 @@
             <h2>Contact</h2>
             <p>For new projects, ideas, business or anything
             you'd like to discuss, contact with me!</p>
-            <div><div>
-                <div>Auskteez Tran</div>
-                <input placeholder="Your email..."></input>
-                <input placeholder="Your phone number..."></input>
-                <input placeholder="Your message..."></input>
+            <div class="SevenContent">
+                <div class="SevenContact">
+                    <div>
+                        <h5>Auskteez Tran</h5>
+                    </div>
+                    <input placeholder="Your email..."/>
+                    <input placeholder="Your phone number..."/>
+                    <textarea placeholder="Your message..."></textarea>
+                </div>
+                <div class="SevenData">
+                    <div>
+                        <h6>Address</h6>
+                        <p>123 City name, Street, City, Country</p>
+                    </div>
+                    <div>
+                        <h6>Email</h6>
+                        <p>cahee@domain.com</p>
+                    </div>
+                    <div>
+                        <h6>Phone</h6>
+                        <p>+012 345 6789</p>
+                    </div>
+                </div>
             </div>
-            <div>ADDRESS
-            123 City name, Street, City, Country
-            EMAIL
-            cahee@domain.com
-            PHONE
-            +012 345 6789</div>
-        </div>
-    </article>
+        </article>
     </main>
-    <footer></footer>
+    <footer>
+        <div><p>&copy; 2015 Company. All rights reserved.</p></div>
+        <h1>Cahee</h1>
+        <div><p>Made with <span>love</span> by Auskteez</p></div>
+    </footer>
 </body>
 </html>
