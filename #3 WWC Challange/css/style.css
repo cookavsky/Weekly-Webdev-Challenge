@@ -7,49 +7,48 @@
 body
 {
     color: black;
-    font-size: 0.8em;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
 }
 
 header
 {
-    padding: 1em 0.5em 0.5em 0.5em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
+    padding: 1em;
 }
 
 .Logo
 {
-    display: flex;
     margin-right: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 h1
 {
-    font-weight: normal;
+    font-size: 0.9rem;
 }
 
 .Logo > img
 {
     margin-right: 0.5em;
-    padding: 0.7em;
+    padding: 0.7em 1em;
     border-radius: 100%;
     background-color: #7CC576;
-}
-
-nav
-{
-    display: flex;
-    margin: 1em;
 }
 
 nav > ul
 {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 nav > ul > li
@@ -85,7 +84,6 @@ nav > ul > li :last-child
 .OnePageIntro > h2
 {
     text-transform: uppercase;
-    font-size: 2.5em;
     margin-bottom: 0.3em;
 }
 
@@ -97,7 +95,7 @@ nav > ul > li :last-child
 .Button
 {
     width: 30%;
-    font-size: 0.7em;
+    font-size: 0.5rem;
     cursor: pointer;
     color: white;
     text-transform: uppercase;
@@ -109,12 +107,11 @@ nav > ul > li :last-child
 
 .TwoPage
 {
-    padding: 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 0.7em;
+    padding: 3em;
 }
 
 .TwoPage > h2
@@ -125,11 +122,11 @@ nav > ul > li :last-child
 
 .TwoPageIcon
 {
-    margin-top: 3em;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    margin: 1em;
 }
 
 .TwoPageIcon > div
@@ -226,14 +223,13 @@ nav > ul > li :last-child
 
 .FourPage
 {
-    margin-left: 2em;
+    padding-left: 2em;
 }
 
 .FourPageHeader
 {
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin: 2em 0;
 }
 
 .FourPageHeader > h2
@@ -244,19 +240,25 @@ nav > ul > li :last-child
 .FourPageContainer
 {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+.FourLeftPage
+{
+    flex-basis: 60%;
+    padding-bottom: 2em;
 }
 
 .FourLeftPage > h2
 {
     margin-bottom: 0.5em;
-    font-size: 0.9em;
+    font-size: 0.7rem;
     text-transform: uppercase;
 }
 
 .FourLeftPage > p
 {
-    font-size: 0.8em;
+    margin: 1em 0;
 }
 
 .FourRightPage
@@ -267,24 +269,12 @@ nav > ul > li :last-child
     padding-bottom: 2em;
 }
 
-.FourLeftPage
-{
-    flex-basis: 60%;
-    margin-bottom: 2em;
-}
-
 .FourPageTable
 {
     display: flex;
-    flex-flow: row wrap;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-size: 0.6em;
-}
-
-.FourPageTable > div > h1
-{
-    font-size: 1.4em;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em 0;
 }
 
 .FourPageIconOne
@@ -308,8 +298,8 @@ nav > ul > li :last-child
     border-radius: 100%;
     background-position: center;
     background-size: 50%;
-    padding: 1em 0.5em;
-    margin: 0 1em 0 1em;
+    padding: 2em;
+    margin-right: 1em;
     flex-basis: 5%;
 }
 
@@ -337,9 +327,9 @@ nav > ul > li :last-child
 {
     background-color: #F9F9F9;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    padding: 1em;
 }
 
 .FivePageIcon
@@ -347,7 +337,6 @@ nav > ul > li :last-child
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: center;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -374,7 +363,7 @@ nav > ul > li :last-child
 .FivePageIconLine
 {
     border: 1px solid #777777;
-    width: 4.5em;
+    width: 10vw;
 }
 
 .FivePageIconOne, .FivePageIconTwo, .FivePageIconThree
@@ -383,32 +372,29 @@ nav > ul > li :last-child
     border-radius: 100%;
     background-position: center;
     background-size: 50%;
-    padding: 2em 2em;
+    padding: 2em;
 }
 
 .FivePageText
 {
     display: flex;
     flex-flow: row;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 2em;
 }
 
 .FivePageText > div
 {
     margin-left: 2em;
-    font-size: 0.8em;
+    font-size: 0.7rem;
 }
 
 .SixPage
 {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
     margin: 3em;
-    font-size: 0.9em;
 }
 
 .SixPage > h2
@@ -430,14 +416,13 @@ nav > ul > li :last-child
     flex-flow: row;
     align-items: center;
     justify-content: center;
-    margin: 5em 0 5em 0;
+    margin: 5em 0;
 }
 
 .SixText
 {
     flex-basis: 70%;
     text-align: center;
-    font-size: 1.1em;
     padding: 2em;
     background-color: #F9F9F9;
 }
@@ -445,7 +430,6 @@ nav > ul > li :last-child
 .SixText > h2
 {
     padding-top: 0.5em;
-    font-size: 0.8em;
     color: #7CC576;
 }
 
@@ -483,7 +467,6 @@ nav > ul > li :last-child
     padding: 1em;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.5em;
 }
 
 .Button2
@@ -494,14 +477,12 @@ nav > ul > li :last-child
     margin-right: auto;
     padding: 0.5em;
     border: 1px solid white;
-    border-top-left-radius: 8%;
-    border-top-right-radius: 8%;
-    border-bottom-right-radius: 8%;
-    border-bottom-left-radius: 8%;
+    border-radius: 0.5em;
 }
 
 .Logos
 {
+    text-align: center;
     padding: 3em;
 }
 
@@ -517,16 +498,17 @@ nav > ul > li :last-child
     background-color: #222222;
     display: flex;
     flex-flow: row;
+    justify-content: center;
 }
 
 .ContactPage
 {
-    padding: 1em;
+    margin: 1em;
+    flex-basis: 50%;
 }
 
 .ContactPage > h2
 {
-    font-size: 1em;
     margin-bottom: 1em;
     text-transform: uppercase;
 }
@@ -536,7 +518,7 @@ nav > ul > li :last-child
     display: flex;
     flex-flow: row;
     align-items: center;
-    font-size: 0.6em;
+    font-size: 0.55rem;
     margin-bottom: 1em;
 }
 
@@ -550,16 +532,19 @@ nav > ul > li :last-child
 .ContactPage > div > p > span
 {
     padding-top: 1em;
-    font-size: 1em;
+}
+
+.Social, footer
+{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
 }
 
 footer
 {
-    font-size: 0.8em;
-    padding: 1em;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
+    padding: 2em;
+    justify-content: space-between;
 }
 
 .Twitter
@@ -588,7 +573,6 @@ footer
     border-radius: 100%;
     background-position: center;
     background-size: 40%;
-    padding: 2em 1.5em;
-    margin-left: 1em;
-    flex-basis: 5%;
+    padding: 1em;
+    margin-left: 0.5em;
 }
