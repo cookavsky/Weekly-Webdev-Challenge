@@ -6,14 +6,224 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1">
     <title>Wekly WebDev Challenge #4</title>
     <meta name="description" content="HTML, CSS, Javascript and WWC">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/media.css">
-
 </head>
 
 <body>
+    <header class="container-fluid row m-0 mb-3 p-0">
+        <nav class="row col-9 m-0 p-0">
+            <ul class="MenuBar navbar list-unstyled p-3 m-0 mr-4">
+                <li class="navbar-toggler p-0">
+                    <img class="navbar-nav" src="img/MenuMenuIcon.png" alt="Navbar"/>
+                </li>
+            </ul>
+            <ul class="row list-unstyled m-0">
+                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
+                    <p class="m-0">Home</p>
+                </li>
+                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
+                    <p class="m-0">Store</p>
+                </li>
+                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
+                    <p class="m-0">Blog</p>
+                </li>
+                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
+                    <p class="m-0">About</p>
+                </li>
+                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
+                    <p class="m-0">Contact</p>
+                </li>
+            </ul>
+        </nav>
+        <div class="row col-3 m-0 p-0">
+            <div class="d-flex col-3 border-right">
+                <img class="navbar-toggler p-0 align-self-center" src="img/SearchMenuIcon.png" alt="Search">
+            </div>
+            <div class="d-flex col-6">
+                <img class="navbar-toggler p-0 mx-auto align-self-center" src="img/FacebookMenuIcon.png" alt="Facebook"/>
+                <img class="navbar-toggler p-0 mx-auto align-self-center" src="img/TwitterMenuIcon.png" alt="Twitter"/>
+                <img class="navbar-toggler p-0 mx-auto align-self-center" src="img/G+IconMenu.png" alt="G+"/>
+            </div>
+            <div class="d-flex col-3 border-left">
+                <img class="navbar-toggler p-0 mx-auto align-self-center" src="img/LoginMenuIcon.png" alt="Login"/>
+            </div>
+        </div>
+    </header>
+    <article class="container-fluid row p-0 m-0">
+        <aside class="row col-6 p-0 m-0">
+            <div class="col-6 p-0">
+                <ul class="bg-white m-0 p-0">
+                    <li class="row navbar-toggler m-0 p-2 border">
+                        <img class="col-2 p-0" src="img/HomeAsideIcon.png" />
+                        <p class="col-10 m-0">Home</p>
+                    </li>
+                    <li class="row navbar-toggler m-0 p-2 border">
+                        <img class="col-2 p-0" src="img/ShopAsideIcon.png" />
+                        <p class="col-10 m-0">Store</p>
+                    </li>
+                    <li class="row navbar-toggler m-0 p-2 border">
+                        <img class="col-2 p-0" src="img/NoteAsideIcon.png" />
+                        <p class="col-10 m-0">Blog</p>
+                    </li>
+                    <li class="row navbar-toggler m-0 p-2 border">
+                        <img class="col-2 p-0" src="img/UsersAsideIcon.png" />
+                        <p class="col-10 m-0">Community</p>
+                    </li>
+                    <li class="row navbar-toggler m-0 p-2 border">
+                        <img class="col-2 p-0" src="img/TrophyAsideIcon.png" />
+                        <p class="col-10 m-0">Contests</p>
+                    </li>
+                    <li class="row navbar-toggler m-0 p-2 border">
+                        <img class="col-2 p-0" src="img/InfoAsideIcon.png" />
+                        <p class="col-10 m-0">About</p>
+                    </li>
+                    <li class="row navbar-toggler m-0 p-2 border">
+                        <img class="col-2 p-0" src="img/EmailAsideIcon.png" />
+                        <p class="col-10 m-0">Contact</p>
+                    </li>
+                </ul>
+                <ul class="Info list-unstyled m-0">
+                    <li class="row m-0 p-2">
+                        <img class="col-2 p-0 my-auto" src="img/PhoneInfoIcon.png"/>
+                        <p class="col-10 m-0 text-white">(912) 555-1234</br>(912) 555-5678</p>
+                    </li>
+                    <li class="row m-0 p-2">
+                        <img class="col-2 p-0 my-auto" src="img/PointerInfoIcon.png"/>
+                        <p class="col-10 m-0 text-white">1600 Pennsylvania Ave NW, Washington DC 20500, USA</p>
+                    </li>
+                    <li class="row m-0 p-2">
+                        <img class="col-2 p-0 my-auto" src="img/EmailInfoIcon.png"/>
+                        <p class="col-10 m-0 text-white">hello@website.com</br>office@website.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 p-0">
+                <ul class="Menu list-unstyled m-0 h-100">
+                    <li class="p-2 px-4">
+                        <div class="row colorMenu">
+                            <p class="col-10 m-0 my-1">Tech</p>
+                            <span class="col-2 m-0 my-1 ">></span>
+                        </div>
+                        <ol class="list-unstyled text-white">
+                            <li>
+                                <p class="m-0 p-0">Software & Apps</p>
+                            </li>
+                            <li>
+                                <p class="m-0 p-0">Gadgets</p>
+                            </li>
+                            <li>
+                                <p class="m-0 p-0">Mobile</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="border-top border-secondary p-2 px-4">
+                        <div class="row colorMenu">
+                            <p class="col-10 m-0 my-1">Entertainment</p>
+                            <span class="col-2 m-0 my-1">></span>
+                        </div>
+                        <ol class="list-unstyled text-white">
+                            <li>
+                                <p class="m-0 p-0">Film</p>
+                            </li>
+                            <li>
+                                <p class="m-0 p-0">Gaming</p>
+                            </li>
+                            <li>
+                                <p class="m-0 p-0">Music</p>
+                            </li>
+                            <li>
+                                <p class="m-0 p-0">Sport</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="border-top border-secondary p-2 px-4">
+                        <div class="row colorMenu">
+                            <p class="col-10 m-0 my-1">Business</p>
+                            <span class="col-2 m-0 my-1">></span>
+                        </div>
+                        <ol class="list-unstyled text-white">
+                            <li>
+                                <p class="m-0 p-0">Jobs</p>
+                            </li>
+                            <li>
+                                <p class="m-0 p-0">Marketing</p>
+                            </li>
+                            <li>
+                                <p class="m-0 p-0">Media</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="border-top border-secondary p-2 px-4">
+                        <div class="row colorMenu">
+                            <p class="col-10 m-0 my-1">Lifestyle</p>
+                            <span class="col-2 m-0 my-1">></span>
+                        </div>
+                        <ol class="list-unstyled text-white">
+                            <li>
+                                <p class="m-0 p-0">Home</p>
+                            </li>
+                            <li>
+                                <p class="m-0 p-0">Health & Fitmess</p>
+                            </li>
+                            <li>
+                                <p class="m-0 p-0">Travel & Leisure</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <section class="row col-6 p-0 pl-3 m-0">
+            <div class="Icon col-6 bg-white px-4 py-1">
+                <div class="row m-0 my-4">
+                    <img class="bg-secondary rounded-circle p-2 mr-3" src="img/FacebookMediaIcon.png" />
+                    <p class="my-auto">Facebook</p>
+                </div>
+                <div class="row m-0 my-4">
+                    <img class="bg-secondary rounded-circle p-2 mr-3" src="img/TwitterMediaIcon.png" />
+                    <p class="my-auto">Twitter</p>
+                </div>
+                <div class="row m-0 my-4">
+                    <img class="bg-secondary rounded-circle p-2 mr-3" src="img/G+MediaIcon.png" />
+                    <p class="my-auto">Google +</p>
+                </div>
+                <div class="row m-0 my-4">
+                    <img class="bg-secondary rounded-circle p-2 mr-3" src="img/RssMediaIcon.png" />
+                    <p class="my-auto">Rss Feeds</p>
+                </div>
+                <div class="row m-0 my-4">
+                    <img class="bg-secondary rounded-circle p-2 mr-3" src="img/PinterestMediaIcon.png" />
+                    <p class="my-auto">Pinterest</p>
+                </div>
+            </div>
+            <div class="col-6 p-0 pl-3">
+                <div class="colorFacebook p-4 mb-3">
+                    <img class="mb-4" src="img/FacebookSocialIcon.png" />
+                    <div class="row text-white">
+                        <p class="col-5 m-auto">156K</p>
+                        <p class="col-4 m-auto">Fallow</p>
+                        <img class="col-3" src="img/FollowSocial.png" />
+                    </div>
+                </div>
+                <div class="colorTwitter p-4">
+                    <img class="mb-4" src="img/TwitterSocialIcon.png" />
+                    <div class="row text-white">
+                        <p class="col-4 m-auto">89K</p>
+                        <p class="col-5 m-auto">Fallowing</p>
+                        <img class="col-3" src="img/FollowSocialUser.png" />
+                    </div>
+                </div>
+            </div>
+            <div>
 
+            </div>
+            <div>
+
+            </div>
+        </section>
+    </article>
 </body>
 
 </html>

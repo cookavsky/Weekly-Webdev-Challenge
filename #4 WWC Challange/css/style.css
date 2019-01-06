@@ -1,10 +1,46 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
-
 body
 {
+    background-color: #5d6e9e;
+    margin: 3em;
+}
 
+header
+{
+    background-color: white;
+}
+
+.MenuBar
+{
+    background-color: #56CCC8;
+}
+
+.Info
+{
+    background-color: #C5CDD1;
+}
+
+.Menu
+{
+    background-color: #152840;
+}
+
+.colorMenu
+{
+    color: #56CCC8;
+}
+
+.Icon > div > img
+{
+    width: 2rem;
+    height: 2rem;
+}
+
+.colorFacebook
+{
+    background-color: #4D6BAA;
+}
+
+.colorTwitter
+{
+    background-color: #4FC6F8;
 }
