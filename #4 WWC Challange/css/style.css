@@ -44,3 +44,15 @@ header
 {
     background-color: #4FC6F8;
 }
+
+.Album
+{
+    background: url("../img/photographer.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.Circle
+{
+    width: 1em;
+    height: 1em;
+}
