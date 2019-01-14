@@ -56,3 +56,25 @@ header
     width: 1em;
     height: 1em;
 }
+
+ul :hover
+{
+    background-color: #4FC6F8;
+    color: white;
+}
+
+.Menu :hover
+{
+    background-color: rgba(51, 95, 238, 0.1);
+    color: white;
+}
+
+.off
+{
+    display: none;
+}
+
+.on
+{
+    visibility: visible;
+}
