@@ -15,7 +15,7 @@ header
 {
     background: url("../img/Blue.jpg") no-repeat;
     background-size: 100% 100%;
-    height: 40%;
+    height: 20%;
     width: 100%;
     position: absolute;
 }
@@ -59,4 +59,30 @@ h1
 .Bg
 {
     background-color: #F2FEFE;
+}
+
+.Clip1
+{
+    background: url("../img/Clip1.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.Clip2
+{
+    background: url("../img/Clip2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Montain
+{
+    background: url("../img/montain.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Planer
+{
+    background-color: #FFFFA6;
 }
