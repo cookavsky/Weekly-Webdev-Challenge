@@ -15,7 +15,7 @@ header
 {
     background: url("../img/Blue.jpg") no-repeat;
     background-size: 100% 100%;
-    height: 20%;
+    height: 10%;
     width: 100%;
     position: absolute;
 }
@@ -50,6 +50,10 @@ h3
     color: #29D9C2;
 }
 
+h6
+{
+    color: #29D9C2;
+}
 h1
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -86,3 +90,34 @@ h1
 {
     background-color: #FFFFA6;
 }
+
+.opacity
+{
+    opacity: 0.5;
+}
+
+.img
+{
+    height: 10vh;
+    width: 15vw;
+}
+
+.dashed
+{
+    border: 2px dashed #AEA25C;
+}
+
+.Contact
+{
+    background: url("../img/Contact.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer
+{
+    background: url("../img/footer.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
