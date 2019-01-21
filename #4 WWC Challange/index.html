@@ -20,20 +20,30 @@
                 </li>
             </ul>
             <ul class="row list-unstyled m-0">
-                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
-                    <p class="m-0">Home</p>
+                <li class="list-group">
+                    <a href="#" class="p-0 mx-4 mt-auto mb-auto text-reset text-decoration-none">
+                        <p class="m-0">Home</p>
+                    </a>
                 </li>
-                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
-                    <p class="m-0">Store</p>
+                <li class="list-group">
+                    <a href="#" class="p-0 mx-4 mt-auto mb-auto text-reset text-decoration-none">
+                        <p class="m-0">Store</p>
+                    </a>
                 </li>
-                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
-                    <p class="m-0">Blog</p>
+                <li class="list-group">
+                    <a href="#" class="p-0 mx-4 mt-auto mb-auto text-reset text-decoration-none">
+                        <p class="m-0">Blog</p>
+                    </a>
                 </li>
-                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
-                    <p class="m-0">About</p>
+                <li class="list-group">
+                    <a href="#" class="p-0 mx-4 mt-auto mb-auto text-reset text-decoration-none">
+                        <p class="m-0">About</p>
+                    </a>
                 </li>
-                <li class="navbar-toggler p-0 mx-4 mt-auto mb-auto">
-                    <p class="m-0">Contact</p>
+                <li class="list-group">
+                    <a href="#" class="p-0 mx-4 mt-auto mb-auto text-reset text-decoration-none">
+                        <p class="m-0">Contact</p>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -42,9 +52,15 @@
                 <img class="navbar-toggler p-0 align-self-center" src="img/SearchMenuIcon.png" alt="Search">
             </div>
             <div class="d-flex col-6">
-                <img class="navbar-toggler p-0 mx-auto align-self-center" src="img/FacebookMenuIcon.png" alt="Facebook"/>
-                <img class="navbar-toggler p-0 mx-auto align-self-center" src="img/TwitterMenuIcon.png" alt="Twitter"/>
-                <img class="navbar-toggler p-0 mx-auto align-self-center" src="img/G+IconMenu.png" alt="G+"/>
+                <a href="https://www.facebook.com" target="_blank" class="p-0 mx-auto align-self-center">
+                    <img src="img/FacebookMenuIcon.png" alt="Facebook" />
+                </a>
+                <a href="https://twitter.com" target="_blank" class="p-0 mx-auto align-self-center">
+                    <img src="img/TwitterMenuIcon.png" alt="Twitter" />
+                </a>
+                <a href="https://plus.google.com" target="_blank" class="p-0 mx-auto align-self-center">
+                    <img src="img/G+IconMenu.png" alt="G+" />
+                </a>
             </div>
             <div class="d-flex col-3 border-left">
                 <img class="navbar-toggler p-0 mx-auto align-self-center" src="img/LoginMenuIcon.png" alt="Login"/>
@@ -55,31 +71,31 @@
         <aside class="off row col-6 p-0 m-0">
             <div class="col-6 p-0">
                 <ul class="bg-white m-0 p-0">
-                    <li class="row navbar-toggler m-0 pl-4 py-3 border">
+                    <li class="row m-0 pl-4 py-3 border navbar-toggler">
                         <img class="col-2 p-0" src="img/HomeAsideIcon.png" />
                         <p class="col-10 m-0">Home</p>
                     </li>
-                    <li class="row navbar-toggler m-0 pl-4 py-3 border">
+                    <li class="row m-0 pl-4 py-3 border navbar-toggler">
                         <img class="col-2 p-0" src="img/ShopAsideIcon.png" />
                         <p class="col-10 m-0">Store</p>
                     </li>
-                    <li id="Blog" class="row navbar-toggler m-0 pl-4 py-3 border">
+                    <li id="Blog" class="row m-0 pl-4 py-3 border navbar-toggler">
                         <img class="col-2 p-0" src="img/NoteAsideIcon.png" />
                         <p class="col-10 m-0">Blog</p>
                     </li>
-                    <li class="row navbar-toggler m-0 pl-4 py-3 border">
+                    <li class="row m-0 pl-4 py-3 border navbar-toggler">
                         <img class="col-2 p-0" src="img/UsersAsideIcon.png" />
                         <p class="col-10 m-0">Community</p>
                     </li>
-                    <li class="row navbar-toggler m-0 pl-4 py-3 border">
+                    <li class="row m-0 pl-4 py-3 border navbar-toggler">
                         <img class="col-2 p-0" src="img/TrophyAsideIcon.png" />
                         <p class="col-10 m-0">Contests</p>
                     </li>
-                    <li class="row navbar-toggler m-0 pl-4 py-3 border">
+                    <li class="row m-0 pl-4 py-3 border navbar-toggler">
                         <img class="col-2 p-0" src="img/InfoAsideIcon.png" />
                         <p class="col-10 m-0">About</p>
                     </li>
-                    <li class="row navbar-toggler m-0 pl-4 py-3 border">
+                    <li class="row m-0 pl-4 py-3 border navbar-toggler">
                         <img class="col-2 p-0" src="img/EmailAsideIcon.png" />
                         <p class="col-10 m-0">Contact</p>
                     </li>
@@ -99,75 +115,121 @@
                 </ul>
             </div>
             <div id="BlogMenu" class="col-6 p-0 off">
-                <ul class="Menu list-unstyled m-0 h-100">
+                <ul class="Menu list-unstyled m-0">
                     <li class="p-2 px-4">
                         <div class="row colorMenu">
-                            <p class="col-10 m-0 my-1">Tech</p>
-                            <span class="col-2 m-0 my-1 ">></span>
+                            <a href="#" class="col-10 m-0 my-1 text-decoration-none text-reset">
+                                <p class="m-0">Tech</p>
+                            </a>
+                            <span id="Menu-B-T" class="col-2 m-0 my-1 navbar-toggler">
+                                <p class="MiniBar-B-T on m-0">></p>
+                                <p class="MiniBar-B-T off m-0">+</p>
+                            </span>
                         </div>
-                        <ol class="list-unstyled text-white">
+                        <ol id="MiniMenu-B-T" class="list-unstyled text-white on">
                             <li>
-                                <p class="m-0 py-1">Software & Apps</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Software & Apps</p>
+                                </a>
                             </li>
                             <li>
-                                <p class="m-0 py-1">Gadgets</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Gadgets</p>
+                                </a>
                             </li>
                             <li>
-                                <p class="m-0 py-1">Mobile</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Mobile</p>
+                                </a>
                             </li>
                         </ol>
                     </li>
                     <li class="border-top border-secondary p-2 px-4">
                         <div class="row colorMenu">
-                            <p class="col-10 m-0 my-1">Entertainment</p>
-                            <span class="col-2 m-0 my-1">></span>
+                            <a href="#" class="col-10 m-0 my-1 text-decoration-none text-reset">
+                                <p class="m-0">Entertainment</p>
+                            </a>
+                            <span id="Menu-B-E" class="col-2 m-0 my-1 navbar-toggler">
+                                <p class="MiniBar-B-E on m-0">></p>
+                                <p class="MiniBar-B-E off m-0">+</p>
+                        </span>
                         </div>
-                        <ol class="list-unstyled text-white">
+                        <ol id="MiniMenu-B-E" class="list-unstyled text-white">
                             <li>
-                                <p class="m-0 py-1">Film</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Film</p>
+                                </a>
                             </li>
                             <li>
-                                <p class="m-0 py-1">Gaming</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Gaming</p>
+                                </a>
                             </li>
                             <li>
-                                <p class="m-0 py-1">Music</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Music</p>
+                                </a>
                             </li>
                             <li>
-                                <p class="m-0 py-1">Sport</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Sport</p>
+                                </a>
                             </li>
                         </ol>
                     </li>
                     <li class="border-top border-secondary p-2 px-4">
                         <div class="row colorMenu">
-                            <p class="col-10 m-0 my-1">Business</p>
-                            <span class="col-2 m-0 my-1">></span>
+                            <a href="#" class="col-10 m-0 my-1 text-decoration-none text-reset">
+                                <p class="m-0">Business</p>
+                            </a>
+                            <span id="Menu-B-B" class="col-2 m-0 my-1 navbar-toggler">
+                                <p class="MiniBar-B-B on m-0">></p>
+                                <p class="MiniBar-B-B off m-0">+</p>
+                            </span>
                         </div>
-                        <ol class="list-unstyled text-white">
+                        <ol id="MiniMenu-B-B" class="list-unstyled text-white">
                             <li>
-                                <p class="m-0 py-1">Jobs</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Jobs</p>
+                                </a>
                             </li>
                             <li>
-                                <p class="m-0 py-1">Marketing</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Marketing</p>
+                                </a>
                             </li>
                             <li>
-                                <p class="m-0 py-1">Media</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Media</p>
+                                </a>
                             </li>
                         </ol>
                     </li>
                     <li class="border-top border-secondary p-2 px-4">
                         <div class="row colorMenu">
-                            <p class="col-10 m-0 my-1">Lifestyle</p>
-                            <span class="col-2 m-0 my-1">></span>
+                            <a href="#" class="col-10 m-0 my-1 text-decoration-none text-reset">
+                                <p class="m-0 py-1">Lifestyle</p>
+                            </a>
+                            <span id="Menu-B-L" class="col-2 m-0 my-1 navbar-toggler">
+                                <p class="MiniBar-B-L on m-0">></p>
+                                <p class="MiniBar-B-L off m-0">+</p>
+                            </span>
                         </div>
-                        <ol class="list-unstyled text-white">
+                        <ol id="MiniMenu-B-L" class="list-unstyled text-white">
                             <li>
-                                <p class="m-0 py-1">Home</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Home</p>
+                                </a>
                             </li>
                             <li>
-                                <p class="m-0 py-1">Health & Fitmess</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Health & Fitmess</p>
+                                </a>
                             </li>
                             <li>
-                                <p class="m-0 py-1">Travel & Leisure</p>
+                                <a href="#" class="m-0 py-1 text-decoration-none text-reset">
+                                    <p class="m-0">Travel & Leisure</p>
+                                </a>
                             </li>
                         </ol>
                     </li>
@@ -178,23 +240,33 @@
             <div class="row p-0 m-0">
                 <div class="Icon col-6 bg-white m-0 p-5">
                     <div class="row m-0 mb-4">
-                        <img class="bg-secondary rounded-circle p-2 mr-3" src="img/FacebookMediaIcon.png" />
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img class="bg-secondary rounded-circle p-2 mr-3" src="img/FacebookMediaIcon.png" />
+                        </a>
                         <p class="my-auto">Facebook</p>
                     </div>
                     <div class="row m-0 mb-4">
-                        <img class="bg-secondary rounded-circle p-2 mr-3" src="img/TwitterMediaIcon.png" />
+                        <a href="https://twitter.com" target="_blank">
+                            <img class="bg-secondary rounded-circle p-2 mr-3" src="img/TwitterMediaIcon.png" />
+                        </a>
                         <p class="my-auto">Twitter</p>
                     </div>
                     <div class="row m-0 mb-4">
-                        <img class="bg-secondary rounded-circle p-2 mr-3" src="img/G+MediaIcon.png" />
+                        <a href="https://plus.google.com" target="_blank">
+                            <img class="bg-secondary rounded-circle p-2 mr-3" src="img/G+MediaIcon.png" />
+                        </a>
                         <p class="my-auto">Google +</p>
                     </div>
                     <div class="row m-0 mb-4">
-                        <img class="bg-secondary    rounded-circle p-2 mr-3" src="img/RssMediaIcon.png" />
+                        <a href="https://feedly.com" target="_blank">
+                            <img class="bg-secondary    rounded-circle p-2 mr-3" src="img/RssMediaIcon.png" />
+                        </a>
                         <p class="my-auto">Rss Feeds</p>
                     </div>
                     <div class="row m-0">
-                        <img class="bg-secondary rounded-circle p-2 mr-3" src="img/PinterestMediaIcon.png" />
+                        <a href="https://www.pinterest.com" target="_blank">
+                            <img class="bg-secondary rounded-circle p-2 mr-3" src="img/PinterestMediaIcon.png" />
+                        </a>
                         <p class="my-auto">Pinterest</p>
                     </div>
                 </div>
@@ -204,7 +276,9 @@
                         <div class="row text-white">
                             <p class="col-6 m-auto">156K</p>
                             <p class="col-3 m-auto">Fallow</p>
-                            <img class="col-3" src="img/FollowSocial.png" />
+                            <a href="https://www.facebook.com" target="_blank" class="col-3">
+                                <img src="img/FollowSocial.png" />
+                            </a>
                         </div>
                     </div>
                     <div class="colorTwitter p-5">
@@ -212,7 +286,9 @@
                         <div class="row text-white">
                             <p class="col-5 m-auto">89K</p>
                             <p class="col-4 m-auto">Fallowing</p>
-                            <img class="col-3" src="img/FollowSocialUser.png" />
+                            <a href="https://www.twitter.com" target="_blank" class="col-3">
+                                <img src="img/FollowSocialUser.png" />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -221,10 +297,18 @@
                 <h3 class="text-center">Sign In</h3>
                 <p class="text-center">Just select your favorite social network to get started</p>
                 <div  class="text-center">
-                    <img src="img/Fb.png" />
-                    <img src="img/Twitter.png" />
-                    <img src="img/G+.png" />
-                    <img src="img/Linkedin.png" />
+                    <a href="https://facebook.com" target="_blank" class="text-decoration-none">
+                        <img src="img/Fb.png" />
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-decoration-none">
+                        <img src="img/Twitter.png" />
+                    </a>
+                    <a href="https://plus.google.com" target="_blank" class="text-decoration-none">
+                        <img src="img/G+.png" />
+                    </a>
+                    <a href="https://Linkedin.com" target="_blank" class="text-decoration-none">
+                        <img src="img/Linkedin.png" />
+                    </a>
                 </div>
             </div>
             <div class="bg-white p-4 w-100">

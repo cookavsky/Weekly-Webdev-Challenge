@@ -57,10 +57,9 @@ header
     height: 1em;
 }
 
-ul :hover
+ul > li > a :hover
 {
-    background-color: #4FC6F8;
-    color: white;
+    color: #4FC6F8;
 }
 
 .Menu :hover
