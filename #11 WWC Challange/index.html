@@ -17,11 +17,11 @@
         <nav class="row m-0 p-0 text-white">
             <h2 class="col-4 m-0 p-5">Yok<span class="font-weight-bold">Ngalam</span></h2>
             <ul class="row col-6 m-0 p-0 my-auto list-unstyled">
-                <li class="btn m-0 mr-5 px-2 py-1 text-white">Home</li>
-                <li class="btn m-0 mr-5 px-2 py-1   text-white">Destination</li>
-                <li class="btn m-0 mr-5 px-2 py-1 text-white">Ittinary</li>
-                <li class="btn m-0 mr-5 px-2 py-1 text-white">Review</li>
-                <li class="btn m-0 mr-5 px-2 py-1 text-white">Contact</li>
+                <li id="Home" class="btn m-0 mr-5 px-2 py-1 text-white">Home</li>
+                <li id="Desti" class="btn m-0 mr-5 px-2 py-1   text-white">Destination</li>
+                <li id="Ittinary" class="btn m-0 mr-5 px-2 py-1 text-white">Ittinary</li>
+                <li id="Review" class="btn m-0 mr-5 px-2 py-1 text-white">Review</li>
+                <li id="Contact" class="btn m-0 mr-5 px-2 py-1 text-white">Contact</li>
             </ul>
             <div class="col-2 m-0 p-5">
                 <img class="m-0 p-0" src="img/Clip.png" alt="Avatar"/>
@@ -30,9 +30,9 @@
         </nav>
         <h1 class="mt-5 p-0 font-weight-bold">LETS GET <span class="text-info">LOST</span></h1>
         <p class="mb-5 p-0 w-25 mx-auto">Malang will never dissapointed you. From every step you took you will be amazed and suddenly fallin love with Malang</p>
-        <button class="btn btn-warning m-5 p-3 rounded-pill">SET ITTINERY NOW</button>
+        <button id="Ittinarybtn" class="btn btn-warning m-5 p-3 rounded-pill">SET ITTINERY NOW</button>
     </article>
-    <main class="mx-0 mt-5 p-0 position-relative">
+    <main id="HomeTo" class="mx-0 mt-5 p-0 position-relative">
         <article class="row m-0 ml-5 p-5">
             <img class="col-6 m-0 p-0 pr-5 h-100 w-100" src="img/Castle.svg" alt="Castle"/>
             <div class="col-6 m-0 p-0">
@@ -42,7 +42,7 @@
         </article>
         <article class="Bg m-0 p-5">
             <section class="m-0 p-5">
-                <div class="row m-0 mb-5 px-5">
+                <div id="DestiTo" class="row m-0 mb-5 px-5">
                     <h3 class="col-10 m-0 p-0">Des<span class="text-info">tination</span></h3>
                     <div class="row col-2 m-0 p-0">
                         <img class="col-1 m-0 my-auto p-0 w-25" src="img/info.png" alt="Info" />
@@ -66,48 +66,173 @@
                     </div>
                 </div>
             </section>
+            <section id="Place1" class="m-0 px-5">
+                <div class="row m-0">
+                    <div class="Clip1 col-6 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 py-3" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 p-5 bg-white">
+                        <img src="img/Coaster.svg" />
+                        <h2 class="text-info p-3">Batu</h2>
+                        <p class="text-secondary px-3">is a city located in East Java Province of Indonesia. It is situated about 20 km to the northwest of Malang. Formerly, it was a part of Malang Regency; but in 2001, Batu became an independent city. A population of 190,000 people, it lies on the southern slopes of Gunung Welirang. Its population largely consists of Javanese.</p>
+                    </div>
+                </div>
+                <div class="row mx-0 my-4 h-100 w-100">
+                    <div class="col-3 m-0 p-5 bg-white">
+                        <img src="img/Mountains.svg" />
+                        <h2 class="text-info p-3">Bromo</h2>
+                        <p class="text-secondary px-3">Mount Bromo is an active volcano and part of the Tengger massif, in East Java, Indonesia. At 2,329 metres (7,641 ft) it is not the highest peak of the massif, but is the most well known</p>
+                    </div>
+                    <div class="Clip2 col-3 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 p-2" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 pl-4 p-0 w-100">
+                        <img class="m-0 p-0 h-100 w-100" src="img/Clip3.svg" />
+                    </div>
+                </div>
+            </section>
+            <section id="Place2" class="off bg-warning m-0 px-5">
+                <div class="row m-0">
+                    <div class="Clip1 col-6 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 py-3" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 p-5 bg-white">
+                        <img src="img/Coaster.svg" />
+                        <h2 class="text-info p-3">Batu</h2>
+                        <p class="text-secondary px-3">is a city located in East Java Province of Indonesia. It is situated about 20 km to the northwest of Malang. Formerly, it was a part of Malang Regency; but in 2001, Batu became an independent city. A population of 190,000 people, it lies on the southern slopes of Gunung Welirang. Its population largely consists of Javanese.</p>
+                    </div>
+                </div>
+                <div class="row mx-0 my-4 h-100 w-100">
+                    <div class="col-3 m-0 p-5 bg-white">
+                        <img src="img/Mountains.svg" />
+                        <h2 class="text-info p-3">Bromo</h2>
+                        <p class="text-secondary px-3">Mount Bromo is an active volcano and part of the Tengger massif, in East Java, Indonesia. At 2,329 metres (7,641 ft) it is not the highest peak of the massif, but is the most well known</p>
+                    </div>
+                    <div class="Clip2 col-3 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 p-2" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 pl-4 p-0 w-100">
+                        <img class="m-0 p-0 h-100 w-100" src="img/Clip3.svg" />
+                    </div>
+                </div>
+            </section>
+            <section id="Place3" class="off bg-success m-0 px-5">
+                <div class="row m-0">
+                    <div class="Clip1 col-6 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 py-3" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 p-5 bg-white">
+                        <img src="img/Coaster.svg" />
+                        <h2 class="text-info p-3">Batu</h2>
+                        <p class="text-secondary px-3">is a city located in East Java Province of Indonesia. It is situated about 20 km to the northwest of Malang. Formerly, it was a part of Malang Regency; but in 2001, Batu became an independent city. A population of 190,000 people, it lies on the southern slopes of Gunung Welirang. Its population largely consists of Javanese.</p>
+                    </div>
+                </div>
+                <div class="row mx-0 my-4 h-100 w-100">
+                    <div class="col-3 m-0 p-5 bg-white">
+                        <img src="img/Mountains.svg" />
+                        <h2 class="text-info p-3">Bromo</h2>
+                        <p class="text-secondary px-3">Mount Bromo is an active volcano and part of the Tengger massif, in East Java, Indonesia. At 2,329 metres (7,641 ft) it is not the highest peak of the massif, but is the most well known</p>
+                    </div>
+                    <div class="Clip2 col-3 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 p-2" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 pl-4 p-0 w-100">
+                        <img class="m-0 p-0 h-100 w-100" src="img/Clip3.svg" />
+                    </div>
+                </div>
+            </section>
+            <section id="Place4" class="off bg-secondary m-0 px-5">
+                <div class="row m-0">
+                    <div class="Clip1 col-6 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 py-3" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 p-5 bg-white">
+                        <img src="img/Coaster.svg" />
+                        <h2 class="text-info p-3">Batu</h2>
+                        <p class="text-secondary px-3">is a city located in East Java Province of Indonesia. It is situated about 20 km to the northwest of Malang. Formerly, it was a part of Malang Regency; but in 2001, Batu became an independent city. A population of 190,000 people, it lies on the southern slopes of Gunung Welirang. Its population largely consists of Javanese.</p>
+                    </div>
+                </div>
+                <div class="row mx-0 my-4 h-100 w-100">
+                    <div class="col-3 m-0 p-5 bg-white">
+                        <img src="img/Mountains.svg" />
+                        <h2 class="text-info p-3">Bromo</h2>
+                        <p class="text-secondary px-3">Mount Bromo is an active volcano and part of the Tengger massif, in East Java, Indonesia. At 2,329 metres (7,641 ft) it is not the highest peak of the massif, but is the most well known</p>
+                    </div>
+                    <div class="Clip2 col-3 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 p-2" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 pl-4 p-0 w-100">
+                        <img class="m-0 p-0 h-100 w-100" src="img/Clip3.svg" />
+                    </div>
+                </div>
+            </section>
+            <section id="Place5" class="off bg-info m-0 px-5">
+                <div class="row m-0">
+                    <div class="Clip1 col-6 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 py-3" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 p-5 bg-white">
+                        <img src="img/Coaster.svg" />
+                        <h2 class="text-info p-3">Batu</h2>
+                        <p class="text-secondary px-3">is a city located in East Java Province of Indonesia. It is situated about 20 km to the northwest of Malang. Formerly, it was a part of Malang Regency; but in 2001, Batu became an independent city. A population of 190,000 people, it lies on the southern slopes of Gunung Welirang. Its population largely consists of Javanese.</p>
+                    </div>
+                </div>
+                <div class="row mx-0 my-4 h-100 w-100">
+                    <div class="col-3 m-0 p-5 bg-white">
+                        <img src="img/Mountains.svg" />
+                        <h2 class="text-info p-3">Bromo</h2>
+                        <p class="text-secondary px-3">Mount Bromo is an active volcano and part of the Tengger massif, in East Java, Indonesia. At 2,329 metres (7,641 ft) it is not the highest peak of the massif, but is the most well known</p>
+                    </div>
+                    <div class="Clip2 col-3 p-0">
+                        <div class="row m-0 p-0">
+                            <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
+                            <img class="col-1 p-2" src="img/Forward.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 pl-4 p-0 w-100">
+                        <img class="m-0 p-0 h-100 w-100" src="img/Clip3.svg" />
+                    </div>
+                </div>
+            </section>
             <section class="row m-0 px-5">
-                <div class="Clip1 col-6 p-0">
-                    <div class="row m-0 p-0">
-                        <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
-                        <img class="col-1 py-3" src="img/Forward.png" />
-                    </div>
-                </div>
-                <div class="col-6 m-0 p-5 bg-white">
-                    <img src="img/Coaster.svg" />
-                    <h2 class="text-info p-3">Batu</h2>
-                    <p class="text-secondary px-3">is a city located in East Java Province of Indonesia. It is situated about 20 km to the northwest of Malang. Formerly, it was a part of Malang Regency; but in 2001, Batu became an independent city. A population of 190,000 people, it lies on the southern slopes of Gunung Welirang. Its population largely consists of
-                    Javanese.</p>
-                </div>
-            </section>
-            <section class="row mx-0 my-4 px-5 h-100 w-100">
-                <div class="col-3 m-0 p-5 bg-white">
-                    <img src="img/Mountains.svg" />
-                    <h2 class="text-info p-3">Bromo</h2>
-                    <p class="text-secondary px-3">Mount Bromo is an active volcano and part of the Tengger massif, in East Java, Indonesia. At 2,329 metres (7,641 ft) it is not the highest peak of the massif, but is the most well known</p>
-                </div>
-                <div class="Clip2 col-3 p-0">
-                    <div class="row m-0 p-0">
-                        <p class="col-11 mx-0 my-auto p-0 text-white text-right">see more</p>
-                        <img class="col-1 p-2" src="img/Forward.png" />
-                    </div>
-                </div>
-                <div class="col-6 m-0 pl-4 p-0 w-100">
-                    <img class="m-0 p-0 h-100 w-100" src="img/Clip3.svg" />
-                </div>
-            </section>
-            <section class="row m-0 p-0">
-                <h10 class="btn text-muted col-auto ml-auto mr-2 p-0">1</h10>
-                <h10 class="btn text-muted col-auto m-0 mr-2 p-0">2</h10>
-                <h10 class="btn text-muted col-auto m-0 mr-2 p-0">3</h10>
-                <h10 class="btn text-muted col-auto m-0 mr-2 p-0">4</h10>
-                <h10 class="btn text-muted col-auto m-0 mr-2 p-0">5</h10>
+                <h10 id="PlaceClick1" class="btn col-auto ml-auto mr-2 p-0">1</h10>
+                <h10 id="PlaceClick2" class="btn text-muted col-auto m-0 mr-2 p-0">2</h10>
+                <h10 id="PlaceClick3" class="btn text-muted col-auto m-0 mr-2 p-0">3</h10>
+                <h10 id="PlaceClick4" class="btn text-muted col-auto m-0 mr-2 p-0">4</h10>
+                <h10 id="PlaceClick5" class="btn text-muted col-auto m-0 mr-2 p-0">5</h10>
                 <h10 class="btn text-muted col-auto m-0 mr-2 p-0">></h10>
                 <h10 class="btn text-muted col-auto mr-auto mr-2 p-0">>></h10>
             </section>
         </article>
         <article class="m-0 p-5">
-            <div class="m-0 p-5 text-center">
+            <div id="IttinaryTo" class="m-0 p-5 text-center">
                 <h3 class="m-0 p-0 font-weight-bold">Set <span class="text-info">Ittinery</span></h3>
                 <p class="mt-5 p-0">Simply drag and drop what you want to visit, and voila we make a ittinery and schedule for your vacation. have a great trip !</p>
             </div>
@@ -206,7 +331,7 @@
                         </button>
                     </div>
                 </section>
-                <section class="col-6 m-0 px-4">
+                <section id="ReviewTo" class="col-6 m-0 px-4">
                     <div class="m-0 p-2 text-center">
                         <h6 class="m-0">List of Destination</h6>
                         <div class="border border-info border-bottom w-25 mx-auto my-2"></div>
@@ -272,7 +397,7 @@
                 </section>
             </sec>
         </article>
-        <article class="Contact m-0 p-5 text-white text-center">
+        <article id="ContactTo" class="Contact m-0 p-5 text-white text-center">
             <div class="m-0 p-5">
                 <h1>Contact</h1>
             </div>
@@ -336,6 +461,10 @@
             <img class="col-auto m-0 p-1 pb-5" src="img/aparat.png" />
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
