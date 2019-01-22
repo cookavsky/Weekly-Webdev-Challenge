@@ -45,9 +45,27 @@ header
     background-color: #4FC6F8;
 }
 
-.Album
+#AlbumArt1
 {
     background: url("../img/photographer.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+#AlbumArt2
+{
+    background: url("../img/british-columbia.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+#AlbumArt3
+{
+    background: url("../img/london.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+#AlbumArt4
+{
+    background: url("../img/forest.jpg") no-repeat;
     background-size: 100% 100%;
 }
 
@@ -76,4 +94,32 @@ ul > li > a :hover
 .on
 {
     visibility: visible;
+}
+
+.white
+{
+    background-color: white;
+}
+
+.grey
+{
+    background-color: grey;
+}
+
+.Store
+{
+    background: url("../img/kiss.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.Instagram
+{
+    background: url("../img/morning.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.MoreStore
+{
+    background: url("../img/ibis.jpg") no-repeat;
+    background-size: 100% 100%;
 }
