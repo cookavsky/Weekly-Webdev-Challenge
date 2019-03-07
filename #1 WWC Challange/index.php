@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1">
-    <title>Wekly WebDev Challenge #1</title>
+    <title>Weekly WebDev Challenge #1</title>
     <meta name="description" content="HTML, CSS, Javascript and WWC">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"  type="text/css" media="screen" href="./css/style.css">
