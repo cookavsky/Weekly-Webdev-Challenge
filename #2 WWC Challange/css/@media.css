@@ -1,0 +1,380 @@
+/*
+    ##Device = Monitors
+    ##Screen = 1920px to higher resolution desktops
+*/
+@media (min-width: 1601px) {
+    body {
+        font-size: 1rem;
+    }
+    .HomeContainer {
+        height: 45em;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    nav > ul > li {
+        margin-left: 2em;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    .HeaderNav {
+        padding: 3em 5em;
+    }
+    .HomeDiv {
+        width: 25%;
+        margin: auto 0 auto 15em;
+    }
+    .ClickHome {
+        font-size: 0.8rem;
+    }
+    .ThreeLeft {
+        flex-basis: 20%;
+    }
+    .ThreeRight {
+        margin-left: 6em;
+    }
+    .ThreeRight > img {
+        height: 20em;
+        width: 20em;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .FourPage {
+        padding: 3em 5em;
+    }
+    .FourText > p {
+        width: 50%;
+    }
+    .FivePage {
+        padding: 7em;
+    }
+    .SixIntro > p {
+        width: 60%;
+    }
+    .Blog > img {
+        height: 25%;
+        width: 25%;
+    }
+    .SixPage > button {
+        font-size: 0.9rem;
+        width: 12em;
+    }
+    .SevenPage {
+        padding: 8em 2em;
+    }
+    .SevenContact > input, textarea {
+        font-size: 0.9rem;
+    }
+}
+/*
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .HomeContainer {
+        height: 45em;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    nav > ul > li {
+        margin-left: 2em;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    .HeaderNav {
+        padding: 3em 5em;
+    }
+    .HomeDiv {
+        width: 25%;
+        margin: auto 0 auto 15em;
+    }
+    .ClickHome {
+        font-size: 0.8rem;
+    }
+    .ThreeLeft {
+        flex-basis: 20%;
+    }
+    .ThreeRight {
+        margin-left: 6em;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .FourPage {
+        padding: 3em 5em;
+    }
+    .FourText > p {
+        width: 50%;
+    }
+    .FivePage {
+        padding: 6em;
+    }
+    .SixIntro > p {
+        width: 60%;
+    }
+    .Blog > img {
+        height: 25%;
+        width: 25%;
+    }
+    .SixPage > button {
+        font-size: 0.8rem;
+        width: 12em;
+    }
+    .SevenPage {
+        padding: 7em 2em;
+    }
+    .SevenContact > input, textarea {
+        font-size: 0.8rem;
+    }
+}
+
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        font-size: 0.8rem;
+    }
+    .HomeContainer {
+        height: 45em;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    nav > ul > li {
+        margin-left: 1em;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    .HeaderNav {
+        padding: 2em 4em;
+    }
+    .HomeDiv {
+        width: 25%;
+        margin: auto 0 auto 15em;
+    }
+    .ClickHome {
+        font-size: 0.8rem;
+    }
+    .ThreeLeft {
+        flex-basis: 25%;
+    }
+    .ThreeRight {
+        margin-left: 6em;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .FourPage {
+        padding: 3em 5em;
+    }
+    .FourText > p {
+        width: 50%;
+    }
+    .FivePage {
+        padding: 5em;
+    }
+    .SixIntro > p {
+        width: 60%;
+    }
+    .Blog > img {
+        height: 25%;
+        width: 25%;
+    }
+    .SixPage > button {
+        font-size: 0.7rem;
+        width: 12em;
+    }
+    .SevenPage {
+        padding: 6em 2em;
+    }
+    .SevenContact > input, textarea {
+        font-size: 0.7rem;
+    }
+}
+
+/*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 0.8rem;
+    }
+    .HomeContainer {
+        height: 35em;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    nav > ul > li {
+        margin-left: 1em;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .HeaderNav {
+        padding: 2em 4em;
+    }
+    .HomeDiv {
+        width: 30%;
+        margin: auto 0 auto 8em;
+    }
+    .ThreeLeft {
+        flex-basis: 30%;
+    }
+    .ThreeRight {
+        margin-left: 6em;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .FourPage {
+        padding: 3em 4em;
+    }
+    .FourText > p {
+        width: 50%;
+    }
+    .FivePage {
+        padding: 5em;
+    }
+    .SixIntro > p {
+        width: 60%;
+    }
+    .Blog > img {
+        height: 25%;
+        width: 25%;
+    }
+    .SixIntro > p {
+        width: 60%;
+    }
+    .Blog > img {
+        height: 25%;
+        width: 25%;
+    }
+    .SixPage > button {
+        font-size: 0.6rem;
+        width: 12em;
+    }
+    .SevenPage {
+        padding: 4em 2em;
+    }
+    .SevenContact > input, textarea {
+        font-size: 0.6rem;
+    }
+}
+
+/*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        font-size: 0.6rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    nav > ul > li {
+        margin-left: 1em;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+    .HeaderNav {
+        padding: 1.5em 3em;
+    }
+    .HomeDiv {
+        width: 35%;
+        margin: auto 0 auto 8em;
+    }
+    .ThreeLeft {
+        flex-basis: 35%;
+    }
+    .ThreeRight {
+        margin-left: 6em;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .FourPage {
+        padding: 3em;
+    }
+    .FivePage {
+        padding: 5em;
+    }
+    .SixIntro > p {
+        width: 60%;
+    }
+    .Blog > img {
+        height: 25%;
+        width: 25%;
+    }
+    .SixPage > button {
+        font-size: 0.5rem;
+        width: 12em;
+    }
+    .SevenPage {
+        padding: 4em 2em;
+    }
+    .SevenContact > input, textarea {
+        font-size: 0.6rem;
+    }
+}
+
+/*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 350px) and (max-width: 480px) {
+    body {
+        font-size: 0.5rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .HeaderNav {
+        padding: 1em 2em;
+    }
+    .ThreeLeft {
+        flex-basis: 40%;
+    }
+    .SixIntro > p {
+        width: 70%;
+    }
+    .Blog > img {
+        height: 30%;
+        width: 30%;
+    }
+}
+
+@media (max-width: 350px) {
+    .TwoText {
+        width: 40%;
+    }
+}

@@ -8,7 +8,6 @@
     <meta name="description" content="HTML, CSS, Javascript and WWC">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"  type="text/css" media="screen" href="./css/style.css">
-    <link rel="stylesheet"  type="text/css" media="screen" href="./css/media.css">
 </head>
 
 <body>
@@ -100,7 +99,7 @@
                 </div>
             </form>
         </article>
-        <article class="right">
+        <article class="Right">
             <form class="Sign" action="login.php" method="post">
                 <h1>Sign in form</h1>
                 <div class="Content">
