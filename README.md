@@ -33,4 +33,4 @@ In progress.
 [Folder WWC](https://drive.google.com/drive/folders/0Bw2hu70L5Ye_VkhvdDZhN3haSlE?fbclid=IwAR2x4UgF11_QnBQguVQCgdlFYgniZz5J46J2uX2aPhMpEwmgnRrGN0lbCzQ)
 
 ## Author
-Created by **_cookavsky_** [WWC - 1](https://weeklyone.cookavsky.com/), [WWC - 2](https://weeklytwo.cookavsky.com/), [WWC - 3](https://weeklythree.cookavsky.com/), [WWC - 4](https://weeklyfour.cookavsky.com/), [WWC - 11](https://weeklyeleven.cookavsky.com/) - for friends Polska Panda.
+Created by **_cookavsky_** [WWC - 1](https://cookavsky.com/project/weeklyone), [WWC - 2](https://cookavsky.com/project/weeklytwo), [WWC - 3](https://cookavsky.com/project/weeklythree), [WWC - 4](https://cookavsky.com/project/weeklyfour), [WWC - 11](https://cookavsky.com/project/weeklyeleven) - for friends Polska Panda.
