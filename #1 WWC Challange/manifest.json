@@ -1,0 +1,21 @@
+{
+    "name": "start_url",
+    "short_name": "s_u",
+    "start_url": ".",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/img/BlackLogo.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/img/WhiteLogo.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "background_color": "#212020",
+    "theme_color": "#3367D6",
+    "description": "A simply start_url."
+}

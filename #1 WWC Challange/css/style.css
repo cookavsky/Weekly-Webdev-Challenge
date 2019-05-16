@@ -117,14 +117,14 @@ h1, h2
 
 .Text > input::placeholder
 {
-    color: #AFAFAF;
+    color: #525252;
     font-size: 0.9rem;
     text-transform: capitalize;
 }
 
 .CheckList
 {
-    color: #AFAFAF;
+    color: #525252;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -180,7 +180,7 @@ h1, h2
 .ButtonRed
 {
     flex-basis: 40%;
-    background-color: red;
+    background-color: #AD0000;
     border: 1px solid crimson;
 }
 

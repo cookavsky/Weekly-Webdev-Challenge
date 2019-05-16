@@ -3,16 +3,18 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1">
     <title>Weekly WebDev Challenge #1</title>
     <meta name="description" content="HTML, CSS, Javascript and WWC">
+    <meta name="keywords" content="Weekly Webdev Challenge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"  type="text/css" media="screen" href="./css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#3367D6"/>
 </head>
 
 <body>
     <header>
-        <img src="img/WhiteLogo.png" />
+        <img src="img/WhiteLogo.png" alt="White">
     </header>
     <main>
         <article class="Left">
@@ -173,11 +175,12 @@
                 </div>
             </form>
             <footer>
-                <img src="img/BlackLogo.png" />
+                <img src="img/BlackLogo.png" alt="Logo">
             </footer>
         </article>
     </main>
     <script src="js/script.js"></script>
+    <script src="sw.js"></script>
 </body>
 
 </html>
